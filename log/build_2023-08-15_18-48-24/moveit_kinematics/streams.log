@@ -1,0 +1,102 @@
+[0.134s] Invoking command in '/home/kush/UR5_Project_New/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/moveit_resources_panda_moveit_config:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_moveit_config:/home/kush/UR5_Project_New/install/moveit_configs_utils:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_resources_panda_description:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_description:/home/kush/UR5_Project_New/install/moveit_common:/home/kush/UR5_Project_New/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/moveit_resources_panda_moveit_config:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_moveit_config:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_resources_panda_description:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_description:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kush/UR5_Project_New/build/moveit_kinematics -- -j4 -l4
+[0.620s] [ 10%] Built target moveit_cached_ik_kinematics_base
+[1.378s] [ 21%] Built target moveit_lma_kinematics_plugin
+[1.529s] [ 31%] Built target gtest_main
+[1.743s] [ 42%] Built target gtest
+[1.991s] [ 52%] Built target benchmark_ik
+[2.208s] [ 68%] Built target moveit_kdl_kinematics_plugin
+[2.399s] [ 78%] Built target moveit_srv_kinematics_plugin
+[2.606s] [ 89%] Built target test_kinematics_plugin
+[2.796s] [100%] Built target moveit_cached_ik_kinematics_plugin
+[2.811s] Invoked command in '/home/kush/UR5_Project_New/build/moveit_kinematics' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/moveit_resources_panda_moveit_config:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_moveit_config:/home/kush/UR5_Project_New/install/moveit_configs_utils:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_resources_panda_description:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_description:/home/kush/UR5_Project_New/install/moveit_common:/home/kush/UR5_Project_New/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/moveit_resources_panda_moveit_config:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_moveit_config:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_resources_panda_description:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_description:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kush/UR5_Project_New/build/moveit_kinematics -- -j4 -l4
+[2.849s] Invoking command in '/home/kush/UR5_Project_New/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/moveit_resources_panda_moveit_config:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_moveit_config:/home/kush/UR5_Project_New/install/moveit_configs_utils:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_resources_panda_description:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_description:/home/kush/UR5_Project_New/install/moveit_common:/home/kush/UR5_Project_New/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/moveit_resources_panda_moveit_config:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_moveit_config:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_resources_panda_description:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_description:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kush/UR5_Project_New/build/moveit_kinematics
+[2.898s] -- Install configuration: "Release"
+[2.901s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/kdl_kinematics_plugin_description.xml
+[2.901s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/lma_kinematics_plugin_description.xml
+[2.901s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/srv_kinematics_plugin_description.xml
+[2.902s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/cached_ik_kinematics_plugin_description.xml
+[2.923s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include
+[2.924s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include/moveit
+[2.924s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin
+[2.924s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin-inl.h
+[2.924s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/detail
+[2.924s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/detail/GreedyKCenters.h
+[2.925s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/detail/NearestNeighbors.h
+[2.925s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/detail/NearestNeighborsGNAT.h
+[2.925s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin.h
+[2.925s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/launch
+[2.925s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/launch/measure_ik_call_cost.launch
+[2.957s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/lib/moveit_kinematics/auto_create_ikfast_moveit_plugin.sh
+[2.958s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/lib/moveit_kinematics/create_ikfast_moveit_plugin.py
+[2.958s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/lib/moveit_kinematics/round_collada_numbers.py
+[2.958s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates
+[2.959s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast61_moveit_plugin_template.cpp
+[2.959s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/CMakeLists.txt
+[2.959s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast.h
+[2.983s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include
+[2.983s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include/moveit
+[2.983s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include/moveit/kdl_kinematics_plugin
+[2.984s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include/moveit/kdl_kinematics_plugin/joint_mimic.hpp
+[2.984s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h
+[2.984s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include/moveit/kdl_kinematics_plugin/chainiksolver_vel_mimic_svd.hpp
+[2.999s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include
+[2.999s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include/moveit
+[3.000s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include/moveit/lma_kinematics_plugin
+[3.000s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include/moveit/lma_kinematics_plugin/lma_kinematics_plugin.h
+[3.008s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include
+[3.008s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include/moveit
+[3.008s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include/moveit/srv_kinematics_plugin
+[3.008s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/include/moveit/srv_kinematics_plugin/srv_kinematics_plugin.h
+[3.022s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/config
+[3.022s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/config/panda-lma-singular-test.yaml
+[3.022s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/config/panda-lma-test.yaml
+[3.023s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/config/panda-kdl-test.yaml
+[3.023s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-kdl-test.yaml
+[3.023s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-kdl-singular-test.yaml
+[3.023s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-lma-test.yaml
+[3.023s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/config/panda-kdl-singular-test.yaml
+[3.023s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-lma-singular-test.yaml
+[3.024s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/launch
+[3.024s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-lma-singular.test.py
+[3.024s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/launch/panda-lma-singular.test.py
+[3.024s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/launch/panda-kdl-singular.test.py
+[3.024s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/launch/panda-lma.test.py
+[3.024s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-kdl-singular.test.py
+[3.025s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-lma.test.py
+[3.025s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-kdl.test.py
+[3.025s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/launch/panda-kdl.test.py
+[3.200s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/lib/moveit_kinematics/benchmark_ik
+[3.334s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/lib/moveit_kinematics/test_kinematics_plugin
+[3.384s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so.2.5.4
+[3.384s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so
+[3.384s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so.2.5.4
+[3.385s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so
+[3.398s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/lib/libmoveit_kdl_kinematics_plugin.so
+[3.399s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/lib/libmoveit_lma_kinematics_plugin.so.2.5.4
+[3.400s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/lib/libmoveit_lma_kinematics_plugin.so
+[3.414s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so.2.5.4
+[3.414s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so
+[3.415s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/environment/library_path.sh
+[3.415s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/environment/library_path.dsv
+[3.415s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/ament_index/resource_index/package_run_dependencies/moveit_kinematics
+[3.416s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/ament_index/resource_index/parent_prefix_path/moveit_kinematics
+[3.416s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/environment/ament_prefix_path.sh
+[3.416s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/environment/ament_prefix_path.dsv
+[3.416s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/environment/path.sh
+[3.416s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/environment/path.dsv
+[3.417s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/local_setup.bash
+[3.417s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/local_setup.sh
+[3.417s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/local_setup.zsh
+[3.417s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/local_setup.dsv
+[3.421s] -- Installing: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/package.dsv
+[3.421s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/ament_index/resource_index/packages/moveit_kinematics
+[3.421s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_kinematics
+[3.435s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/cmake/export_moveit_kinematicsExport.cmake
+[3.436s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/cmake/export_moveit_kinematicsExport-release.cmake
+[3.436s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/cmake/ConfigExtras.cmake
+[3.436s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/cmake/ament_cmake_export_targets-extras.cmake
+[3.436s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.436s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsConfig.cmake
+[3.437s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsConfig-version.cmake
+[3.437s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_kinematics/share/moveit_kinematics/package.xml
+[3.445s] Invoked command in '/home/kush/UR5_Project_New/build/moveit_kinematics' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/moveit_resources_panda_moveit_config:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_moveit_config:/home/kush/UR5_Project_New/install/moveit_configs_utils:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_resources_panda_description:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_description:/home/kush/UR5_Project_New/install/moveit_common:/home/kush/UR5_Project_New/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/moveit_resources_panda_moveit_config:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_moveit_config:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_resources_panda_description:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_description:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kush/UR5_Project_New/build/moveit_kinematics

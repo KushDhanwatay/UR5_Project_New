@@ -1,0 +1,23 @@
+[12.234s] Invoking command in '/home/kush/UR5_Project_New/src/launch_param_builder': PYTHONPATH=/home/kush/UR5_Project_New/build/launch_param_builder/prefix_override:/home/kush/UR5_Project_New/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_param_builder build --build-base /home/kush/UR5_Project_New/build/launch_param_builder/build install --record /home/kush/UR5_Project_New/build/launch_param_builder/install.log --single-version-externally-managed
+[12.885s] running egg_info
+[12.889s] writing ../../build/launch_param_builder/launch_param_builder.egg-info/PKG-INFO
+[12.889s] writing dependency_links to ../../build/launch_param_builder/launch_param_builder.egg-info/dependency_links.txt
+[12.890s] writing entry points to ../../build/launch_param_builder/launch_param_builder.egg-info/entry_points.txt
+[12.890s] writing requirements to ../../build/launch_param_builder/launch_param_builder.egg-info/requires.txt
+[12.890s] writing top-level names to ../../build/launch_param_builder/launch_param_builder.egg-info/top_level.txt
+[12.894s] reading manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[12.913s] adding license file 'LICENSE'
+[12.915s] writing manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[12.915s] running build
+[12.915s] running build_py
+[12.916s] running install
+[12.979s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[12.979s]   warnings.warn(
+[12.980s] running install_lib
+[12.982s] running install_data
+[12.983s] running install_egg_info
+[12.990s] removing '/home/kush/UR5_Project_New/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder-0.1.1-py3.10.egg-info' (and everything under it)
+[12.991s] Copying ../../build/launch_param_builder/launch_param_builder.egg-info to /home/kush/UR5_Project_New/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder-0.1.1-py3.10.egg-info
+[13.049s] running install_scripts
+[13.091s] writing list of installed files to '/home/kush/UR5_Project_New/build/launch_param_builder/install.log'
+[13.150s] Invoked command in '/home/kush/UR5_Project_New/src/launch_param_builder' returned '0': PYTHONPATH=/home/kush/UR5_Project_New/build/launch_param_builder/prefix_override:/home/kush/UR5_Project_New/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_param_builder build --build-base /home/kush/UR5_Project_New/build/launch_param_builder/build install --record /home/kush/UR5_Project_New/build/launch_param_builder/install.log --single-version-externally-managed
