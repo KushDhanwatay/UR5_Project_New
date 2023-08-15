@@ -1,0 +1,176 @@
+[0.029s] Invoking command in '/home/kush/UR5_Project_New/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/ur_controllers/lib:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kush/UR5_Project_New/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/install/ur_robot_driver
+[0.176s] -- The C compiler identification is GNU 11.4.0
+[0.318s] -- The CXX compiler identification is GNU 11.4.0
+[0.338s] -- Detecting C compiler ABI info
+[0.596s] -- Detecting C compiler ABI info - done
+[0.617s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.617s] -- Detecting C compile features
+[0.618s] -- Detecting C compile features - done
+[0.625s] -- Detecting CXX compiler ABI info
+[0.829s] -- Detecting CXX compiler ABI info - done
+[0.863s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.863s] -- Detecting CXX compile features
+[0.865s] -- Detecting CXX compile features - done
+[0.872s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.219s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.471s] -- Found controller_manager: 2.29.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.583s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.597s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.620s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.653s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.709s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.048s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.052s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.274s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.387s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.508s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.522s] -- Looking for pthread.h
+[3.617s] -- Looking for pthread.h - found
+[3.618s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.720s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.721s] -- Found Threads: TRUE  
+[4.764s] -- Found rclpy: 3.3.9 (/opt/ros/humble/share/rclpy/cmake)
+[4.767s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[4.803s] -- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.829s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.831s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.831s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.309s] -- Found ur_dashboard_msgs: 2.2.8 (/home/kush/UR5_Project_New/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[8.489s] -- Found ur_controllers: 2.2.8 (/home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/cmake)
+[9.087s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[10.267s] -- Found ur_description: 2.1.0 (/opt/ros/humble/share/ur_description/cmake)
+[10.270s] -- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[10.272s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.312s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[10.324s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[10.325s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.325s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.325s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[10.377s] -- Found PythonExtra: .so  
+[10.378s] -- Configuring done
+[10.936s] -- Generating done
+[10.959s] -- Build files have been written to: /home/kush/UR5_Project_New/build/ur_robot_driver
+[10.995s] Invoked command in '/home/kush/UR5_Project_New/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/ur_controllers/lib:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kush/UR5_Project_New/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/install/ur_robot_driver
+[10.996s] Invoking command in '/home/kush/UR5_Project_New/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/ur_controllers/lib:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kush/UR5_Project_New/build/ur_robot_driver -- -j4 -l4
+[11.096s] [  6%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o[0m
+[11.106s] [ 13%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o[0m
+[11.162s] [ 20%] [32mBuilding CXX object CMakeFiles/ur_ros2_control_node.dir/src/ur_ros2_control_node.cpp.o[0m
+[12.165s] [ 26%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o[0m
+[23.354s] [ 33%] [32m[1mLinking CXX executable ur_ros2_control_node[0m
+[24.057s] [ 33%] Built target ur_ros2_control_node
+[24.118s] [ 40%] [32mBuilding CXX object CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o[0m
+[47.943s] [ 46%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o[0m
+[54.329s] [ 53%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o[0m
+[55.511s] [ 60%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o[0m
+[55.915s] [ 66%] [32m[1mLinking CXX executable urscript_interface[0m
+[56.761s] [ 66%] Built target urscript_interface
+[57.758s] [ 73%] [32m[1mLinking CXX executable controller_stopper_node[0m
+[58.326s] [ 73%] Built target controller_stopper_node
+[63.549s] [ 80%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/urcl_log_handler.cpp.o[0m
+[64.735s] [ 86%] [32m[1mLinking CXX executable dashboard_client[0m
+[65.287s] [ 86%] Built target dashboard_client
+[68.287s] [ 93%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o[0m
+[69.275s] [100%] [32m[1mLinking CXX shared library libur_robot_driver_plugin.so[0m
+[69.685s] [100%] Built target ur_robot_driver_plugin
+[69.725s] [100%] Built target ament_cmake_python_copy_ur_robot_driver
+[70.077s] running egg_info
+[70.078s] creating ur_robot_driver.egg-info
+[70.078s] writing ur_robot_driver.egg-info/PKG-INFO
+[70.078s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[70.079s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[70.079s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[70.083s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[70.084s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[70.128s] [100%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[70.144s] Invoked command in '/home/kush/UR5_Project_New/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/ur_controllers/lib:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kush/UR5_Project_New/build/ur_robot_driver -- -j4 -l4
+[70.199s] Invoking command in '/home/kush/UR5_Project_New/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/ur_controllers/lib:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kush/UR5_Project_New/build/ur_robot_driver
+[70.212s] -- Install configuration: "Release"
+[70.213s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/hardware_interface_plugin.xml
+[70.213s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client
+[70.215s] -- Set runtime path of "/home/kush/UR5_Project_New/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client" to ""
+[70.215s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node
+[70.216s] -- Set runtime path of "/home/kush/UR5_Project_New/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node" to ""
+[70.216s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node
+[70.218s] -- Set runtime path of "/home/kush/UR5_Project_New/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node" to ""
+[70.218s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface
+[70.219s] -- Set runtime path of "/home/kush/UR5_Project_New/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface" to ""
+[70.220s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/lib/libur_robot_driver_plugin.so
+[70.223s] -- Set runtime path of "/home/kush/UR5_Project_New/install/ur_robot_driver/lib/libur_robot_driver_plugin.so" to ""
+[70.223s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/include
+[70.223s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/include/ur_robot_driver
+[70.223s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[70.224s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[70.224s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[70.224s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[70.224s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh
+[70.225s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv
+[70.225s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/resources
+[70.225s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+[70.225s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript
+[70.225s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+[70.226s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+[70.226s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+[70.226s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_robot_driver/include
+[70.226s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_robot_driver/include/ur_robot_driver
+[70.226s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[70.227s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[70.227s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[70.227s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[70.227s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh
+[70.227s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv
+[70.228s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.8-py3.10.egg-info
+[70.228s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.8-py3.10.egg-info/SOURCES.txt
+[70.228s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.8-py3.10.egg-info/dependency_links.txt
+[70.228s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.8-py3.10.egg-info/PKG-INFO
+[70.228s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.8-py3.10.egg-info/top_level.txt
+[70.228s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver
+[70.228s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py
+[70.272s] Listing '/home/kush/UR5_Project_New/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver'...
+[70.272s] Compiling '/home/kush/UR5_Project_New/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py'...
+[70.281s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py
+[70.281s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/bin/wait_dashboard_server.sh
+[70.281s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[70.282s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/config
+[70.282s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml
+[70.282s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml
+[70.282s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml
+[70.282s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml
+[70.283s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml
+[70.283s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml
+[70.283s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml
+[70.283s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml
+[70.284s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml
+[70.284s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml
+[70.284s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/launch
+[70.284s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py
+[70.284s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py
+[70.285s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py
+[70.285s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py
+[70.285s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py
+[70.285s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py
+[70.285s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py
+[70.285s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py
+[70.286s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py
+[70.286s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py
+[70.286s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py
+[70.286s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py
+[70.286s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver
+[70.287s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver
+[70.287s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh
+[70.287s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv
+[70.287s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh
+[70.287s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv
+[70.288s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash
+[70.288s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh
+[70.288s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh
+[70.288s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv
+[70.288s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/package.dsv
+[70.288s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver
+[70.289s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver
+[70.289s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[70.289s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[70.289s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[70.289s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+[70.290s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+[70.290s] -- Installing: /home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/package.xml
+[70.295s] Invoked command in '/home/kush/UR5_Project_New/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/ur_controllers/lib:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kush/UR5_Project_New/build/ur_robot_driver
