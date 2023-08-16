@@ -1,0 +1,87 @@
+[0.092s] Invoking command in '/home/kush/UR5_Project_New/src/build/moveit_chomp_optimizer_adapter': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/chomp_motion_planner:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/chomp_motion_planner:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/src/install/chomp_motion_planner/lib:/home/kush/UR5_Project_New/src/install/moveit_core/lib:/home/kush/UR5_Project_New/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kush/UR5_Project_New/src/moveit2/moveit_planners/chomp/chomp_optimizer_adapter -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter
+[0.263s] -- The C compiler identification is GNU 11.4.0
+[0.436s] -- The CXX compiler identification is GNU 11.4.0
+[0.467s] -- Detecting C compiler ABI info
+[0.784s] -- Detecting C compiler ABI info - done
+[0.817s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.818s] -- Detecting C compile features
+[0.820s] -- Detecting C compile features - done
+[0.827s] -- Detecting CXX compiler ABI info
+[1.176s] -- Detecting CXX compiler ABI info - done
+[1.217s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.218s] -- Detecting CXX compile features
+[1.219s] -- Detecting CXX compile features - done
+[1.239s] -- Found moveit_common: 2.5.4 (/home/kush/UR5_Project_New/src/install/moveit_common/share/moveit_common/cmake)
+[1.250s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.877s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.723s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[2.761s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[2.762s] -- BACKWARD_HAS_UNWIND=1
+[2.768s] -- BACKWARD_HAS_BACKTRACE=0
+[2.768s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[2.769s] -- BACKWARD_HAS_DW=1
+[2.769s] -- BACKWARD_HAS_BFD=0
+[2.770s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[2.771s] [0mmoveit_chomp_optimizer_adapter: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[2.772s] -- Found chomp_motion_planner: 2.5.4 (/home/kush/UR5_Project_New/src/install/chomp_motion_planner/share/chomp_motion_planner/cmake)
+[2.777s] -- Found moveit_core: 2.5.4 (/home/kush/UR5_Project_New/src/install/moveit_core/share/moveit_core/cmake)
+[4.397s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[4.487s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[4.691s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.707s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.736s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.794s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.873s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.120s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.128s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.397s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.464s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.590s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.619s] -- Found Threads: TRUE  
+[6.340s] -- Found rclcpp_lifecycle: 16.0.5 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[6.632s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[7.427s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[8.841s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.842s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[12.300s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.335s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.336s] -- Configured cppcheck include dirs: 
+[12.336s] -- Configured cppcheck exclude dirs and/or files: 
+[12.337s] -- Added test 'xmllint' to check XML markup files
+[12.347s] -- Configuring done
+[12.459s] -- Generating done
+[12.465s] -- Build files have been written to: /home/kush/UR5_Project_New/src/build/moveit_chomp_optimizer_adapter
+[12.542s] Invoked command in '/home/kush/UR5_Project_New/src/build/moveit_chomp_optimizer_adapter' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/chomp_motion_planner:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/chomp_motion_planner:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/src/install/chomp_motion_planner/lib:/home/kush/UR5_Project_New/src/install/moveit_core/lib:/home/kush/UR5_Project_New/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kush/UR5_Project_New/src/moveit2/moveit_planners/chomp/chomp_optimizer_adapter -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter
+[12.542s] Invoking command in '/home/kush/UR5_Project_New/src/build/moveit_chomp_optimizer_adapter': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/chomp_motion_planner:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/chomp_motion_planner:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/src/install/chomp_motion_planner/lib:/home/kush/UR5_Project_New/src/install/moveit_core/lib:/home/kush/UR5_Project_New/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kush/UR5_Project_New/src/build/moveit_chomp_optimizer_adapter -- -j4 -l4
+[12.776s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_chomp_optimizer_adapter.dir/src/chomp_optimizer_adapter.cpp.o[0m
+[41.920s] [100%] [32m[1mLinking CXX shared library libmoveit_chomp_optimizer_adapter.so[0m
+[42.496s] [100%] Built target moveit_chomp_optimizer_adapter
+[42.535s] Invoked command in '/home/kush/UR5_Project_New/src/build/moveit_chomp_optimizer_adapter' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/chomp_motion_planner:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/chomp_motion_planner:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/src/install/chomp_motion_planner/lib:/home/kush/UR5_Project_New/src/install/moveit_core/lib:/home/kush/UR5_Project_New/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kush/UR5_Project_New/src/build/moveit_chomp_optimizer_adapter -- -j4 -l4
+[42.608s] Invoking command in '/home/kush/UR5_Project_New/src/build/moveit_chomp_optimizer_adapter': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/chomp_motion_planner:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/chomp_motion_planner:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/src/install/chomp_motion_planner/lib:/home/kush/UR5_Project_New/src/install/moveit_core/lib:/home/kush/UR5_Project_New/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kush/UR5_Project_New/src/build/moveit_chomp_optimizer_adapter
+[42.625s] -- Install configuration: "Release"
+[42.626s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/lib/libmoveit_chomp_optimizer_adapter.so.2.5.4
+[42.635s] -- Set runtime path of "/home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/lib/libmoveit_chomp_optimizer_adapter.so.2.5.4" to ""
+[42.635s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/lib/libmoveit_chomp_optimizer_adapter.so
+[42.635s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/environment/library_path.sh
+[42.636s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/environment/library_path.dsv
+[42.636s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/chomp_optimizer_adapter_plugin_description.xml
+[42.652s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/ament_index/resource_index/package_run_dependencies/moveit_chomp_optimizer_adapter
+[42.657s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/ament_index/resource_index/parent_prefix_path/moveit_chomp_optimizer_adapter
+[42.661s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/environment/ament_prefix_path.sh
+[42.663s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/environment/ament_prefix_path.dsv
+[42.669s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/environment/path.sh
+[42.670s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/environment/path.dsv
+[42.671s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/local_setup.bash
+[42.672s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/local_setup.sh
+[42.673s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/local_setup.zsh
+[42.675s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/local_setup.dsv
+[42.675s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/package.dsv
+[42.684s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/ament_index/resource_index/packages/moveit_chomp_optimizer_adapter
+[42.690s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_chomp_optimizer_adapter
+[42.696s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/cmake/moveit_chomp_optimizer_adapterTargetsExport.cmake
+[42.697s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/cmake/moveit_chomp_optimizer_adapterTargetsExport-release.cmake
+[42.698s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/cmake/ament_cmake_export_targets-extras.cmake
+[42.699s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/cmake/moveit_chomp_optimizer_adapterConfig.cmake
+[42.700s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/cmake/moveit_chomp_optimizer_adapterConfig-version.cmake
+[42.700s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/package.xml
+[42.712s] Invoked command in '/home/kush/UR5_Project_New/src/build/moveit_chomp_optimizer_adapter' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/chomp_motion_planner:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/chomp_motion_planner:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/src/install/chomp_motion_planner/lib:/home/kush/UR5_Project_New/src/install/moveit_core/lib:/home/kush/UR5_Project_New/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kush/UR5_Project_New/src/build/moveit_chomp_optimizer_adapter

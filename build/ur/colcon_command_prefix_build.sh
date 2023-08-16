@@ -3,6 +3,7 @@
 . "/home/kush/UR5_Project_New/install/moveit_common/share/moveit_common/package.sh"
 . "/home/kush/UR5_Project_New/install/srdfdom/share/srdfdom/package.sh"
 . "/home/kush/UR5_Project_New/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.sh"
+. "/home/kush/UR5_Project_New/install/ur_description/share/ur_description/package.sh"
 . "/home/kush/UR5_Project_New/install/moveit_configs_utils/share/moveit_configs_utils/package.sh"
 . "/home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/package.sh"
 . "/home/kush/UR5_Project_New/install/moveit_core/share/moveit_core/package.sh"

@@ -1,0 +1,90 @@
+[0.357s] Invoking command in '/home/kush/UR5_Project_New/build/moveit_ros_robot_interaction': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kush/UR5_Project_New/src/moveit2/moveit_ros/robot_interaction -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/install/moveit_ros_robot_interaction
+[0.430s] -- Found moveit_common: 2.5.4 (/home/kush/UR5_Project_New/install/moveit_common/share/moveit_common/cmake)
+[0.432s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.384s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.384s] -- BACKWARD_HAS_UNWIND=1
+[1.384s] -- BACKWARD_HAS_BACKTRACE=0
+[1.387s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.387s] -- BACKWARD_HAS_DW=1
+[1.387s] -- BACKWARD_HAS_BFD=0
+[1.391s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.393s] -- Found moveit_core: 2.5.4 (/home/kush/UR5_Project_New/install/moveit_core/share/moveit_core/cmake)
+[1.450s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.494s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.579s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.587s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.603s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.635s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.681s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.839s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.848s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.177s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.754s] -- Found rclcpp_lifecycle: 16.0.5 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.898s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[3.232s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.518s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.189s] -- Found moveit_ros_planning: 2.5.4 (/home/kush/UR5_Project_New/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[9.202s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[10.513s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[10.633s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[10.634s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.698s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.743s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.744s] -- Configured cppcheck include dirs: /home/kush/UR5_Project_New/src/moveit2/moveit_ros/robot_interaction/include
+[10.744s] -- Configured cppcheck exclude dirs and/or files: 
+[10.750s] -- Added test 'lint_cmake' to check CMake code style
+[10.751s] -- Added test 'xmllint' to check XML markup files
+[10.772s] -- Configuring done
+[11.053s] -- Generating done
+[11.060s] -- Build files have been written to: /home/kush/UR5_Project_New/build/moveit_ros_robot_interaction
+[11.124s] Invoked command in '/home/kush/UR5_Project_New/build/moveit_ros_robot_interaction' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kush/UR5_Project_New/src/moveit2/moveit_ros/robot_interaction -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/install/moveit_ros_robot_interaction
+[11.125s] Invoking command in '/home/kush/UR5_Project_New/build/moveit_ros_robot_interaction': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kush/UR5_Project_New/build/moveit_ros_robot_interaction -- -j4 -l4
+[11.333s] [35m[1mConsolidate compiler generated dependencies of target moveit_robot_interaction[0m
+[11.805s] [ 53%] Built target moveit_robot_interaction
+[11.904s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[11.970s] [ 69%] Built target gtest
+[12.041s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[12.080s] [ 84%] Built target gtest_main
+[12.194s] [35m[1mConsolidate compiler generated dependencies of target locked_robot_state_test[0m
+[12.291s] [100%] Built target locked_robot_state_test
+[12.306s] Invoked command in '/home/kush/UR5_Project_New/build/moveit_ros_robot_interaction' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kush/UR5_Project_New/build/moveit_ros_robot_interaction -- -j4 -l4
+[12.456s] Invoking command in '/home/kush/UR5_Project_New/build/moveit_ros_robot_interaction': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kush/UR5_Project_New/build/moveit_ros_robot_interaction
+[12.489s] -- Install configuration: "Release"
+[12.578s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so.2.5.4
+[12.579s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so
+[12.579s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/include
+[12.579s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/include/moveit
+[12.579s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/include/moveit/robot_interaction
+[12.580s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/locked_robot_state.h
+[12.580s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/robot_interaction.h
+[12.580s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/interaction.h
+[12.580s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/interaction_handler.h
+[12.580s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/kinematic_options.h
+[12.581s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/kinematic_options_map.h
+[12.581s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/interactive_marker_helpers.h
+[12.581s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/include/moveit_robot_interaction_export.h
+[12.581s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources
+[12.581s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources/access-denied.stl
+[12.582s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources/access-denied.dae
+[12.582s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/library_path.sh
+[12.582s] -- Installing: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/library_path.dsv
+[12.582s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/ament_index/resource_index/package_run_dependencies/moveit_ros_robot_interaction
+[12.583s] -- Installing: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/ament_index/resource_index/parent_prefix_path/moveit_ros_robot_interaction
+[12.583s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/ament_prefix_path.sh
+[12.583s] -- Installing: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/ament_prefix_path.dsv
+[12.583s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/path.sh
+[12.583s] -- Installing: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/path.dsv
+[12.584s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.bash
+[12.584s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.sh
+[12.584s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.zsh
+[12.584s] -- Installing: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.dsv
+[12.584s] -- Installing: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/package.dsv
+[12.585s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/ament_index/resource_index/packages/moveit_ros_robot_interaction
+[12.601s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/export_moveit_ros_robot_interactionExport.cmake
+[12.601s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/export_moveit_ros_robot_interactionExport-release.cmake
+[12.601s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/ament_cmake_export_targets-extras.cmake
+[12.602s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.602s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/moveit_ros_robot_interactionConfig.cmake
+[12.602s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/moveit_ros_robot_interactionConfig-version.cmake
+[12.602s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/package.xml
+[12.611s] Invoked command in '/home/kush/UR5_Project_New/build/moveit_ros_robot_interaction' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kush/UR5_Project_New/build/moveit_ros_robot_interaction

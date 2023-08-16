@@ -1,0 +1,104 @@
+[0.079s] Invoking command in '/home/kush/UR5_Project_New/src/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kush/UR5_Project_New/src/srdfdom -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/src/install/srdfdom
+[6.022s] -- The CXX compiler identification is GNU 11.4.0
+[6.302s] -- Detecting CXX compiler ABI info
+[6.890s] -- Detecting CXX compiler ABI info - done
+[6.923s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.924s] -- Detecting CXX compile features
+[6.924s] -- Detecting CXX compile features - done
+[7.296s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[7.484s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.911s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[8.288s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[9.294s] -- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[9.600s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[9.639s] -- Found ament_cmake_pytest: 1.3.5 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[13.128s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[13.358s] -- The C compiler identification is GNU 11.4.0
+[13.375s] -- Detecting C compiler ABI info
+[13.591s] -- Detecting C compiler ABI info - done
+[13.617s] -- Check for working C compiler: /usr/bin/cc - skipped
+[13.617s] -- Detecting C compile features
+[13.618s] -- Detecting C compile features - done
+[13.678s] -- Looking for C++ include pthread.h
+[14.181s] -- Looking for C++ include pthread.h - found
+[14.181s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.675s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[14.678s] -- Found Threads: TRUE  
+[14.689s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.802s] -- Configuring done
+[14.891s] -- Generating done
+[14.896s] -- Build files have been written to: /home/kush/UR5_Project_New/src/build/srdfdom
+[14.924s] Invoked command in '/home/kush/UR5_Project_New/src/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kush/UR5_Project_New/src/srdfdom -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/src/install/srdfdom
+[14.925s] Invoking command in '/home/kush/UR5_Project_New/src/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kush/UR5_Project_New/src/build/srdfdom -- -j4 -l4
+[15.087s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[15.093s] [ 18%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[15.097s] [ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[15.136s] [ 27%] Built target ament_cmake_python_copy_srdfdom
+[15.874s] running egg_info
+[15.876s] creating srdfdom.egg-info
+[15.876s] writing srdfdom.egg-info/PKG-INFO
+[15.876s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[15.877s] writing top-level names to srdfdom.egg-info/top_level.txt
+[15.877s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[15.883s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[15.884s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[16.029s] [ 27%] Built target ament_cmake_python_build_srdfdom_egg
+[16.050s] [ 36%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[19.683s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[20.166s] [ 45%] Built target gtest_main
+[27.667s] [ 54%] [32m[1mLinking CXX shared library libsrdfdom.so[0m
+[28.829s] [ 54%] Built target srdfdom
+[31.255s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[31.592s] [ 63%] Built target gtest
+[31.636s] [ 72%] [32mBuilding CXX object CMakeFiles/test_cpp_C.dir/test/test_parser.cpp.o[0m
+[36.452s] [ 81%] [32m[1mLinking CXX executable test_cpp_C[0m
+[37.038s] [ 81%] Built target test_cpp_C
+[37.078s] [ 90%] [32mBuilding CXX object CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o[0m
+[41.378s] [100%] [32m[1mLinking CXX executable test_cpp_nl_NL.UTF-8[0m
+[41.942s] [100%] Built target test_cpp_nl_NL.UTF-8
+[42.043s] Invoked command in '/home/kush/UR5_Project_New/src/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kush/UR5_Project_New/src/build/srdfdom -- -j4 -l4
+[42.148s] Invoking command in '/home/kush/UR5_Project_New/src/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kush/UR5_Project_New/src/build/srdfdom
+[42.173s] -- Install configuration: ""
+[42.174s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/lib/libsrdfdom.so.2.0.4
+[42.186s] -- Set runtime path of "/home/kush/UR5_Project_New/src/install/srdfdom/lib/libsrdfdom.so.2.0.4" to ""
+[42.187s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/lib/libsrdfdom.so
+[42.188s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/include/srdfdom
+[42.189s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/include/srdfdom/visibility_control.h
+[42.192s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/include/srdfdom/model.h
+[42.194s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/include/srdfdom/srdf_writer.h
+[42.196s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/lib/srdfdom/display_srdf
+[42.207s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+[42.208s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+[42.209s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info
+[42.210s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/SOURCES.txt
+[42.210s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/dependency_links.txt
+[42.211s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/PKG-INFO
+[42.212s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/top_level.txt
+[42.212s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom
+[42.213s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py
+[42.213s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py
+[42.396s] Listing '/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...
+[42.397s] Compiling '/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py'...
+[42.397s] Compiling '/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py'...
+[42.440s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/environment/library_path.sh
+[42.441s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/environment/library_path.dsv
+[42.442s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+[42.443s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+[42.444s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+[42.444s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+[42.445s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/environment/path.sh
+[42.446s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/environment/path.dsv
+[42.447s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/local_setup.bash
+[42.447s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/local_setup.sh
+[42.448s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/local_setup.zsh
+[42.449s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/local_setup.dsv
+[42.450s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/package.dsv
+[42.451s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+[42.452s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+[42.452s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-noconfig.cmake
+[42.453s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+[42.454s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+[42.455s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+[42.455s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+[42.456s] -- Installing: /home/kush/UR5_Project_New/src/install/srdfdom/share/srdfdom/package.xml
+[42.480s] Invoked command in '/home/kush/UR5_Project_New/src/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kush/UR5_Project_New/src/build/srdfdom

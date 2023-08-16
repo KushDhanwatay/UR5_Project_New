@@ -1,0 +1,252 @@
+[0.000000] (-) TimerEvent: {}
+[0.000291] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000366] (-) JobUnselected: {'identifier': 'launch_param_builder'}
+[0.000422] (-) JobUnselected: {'identifier': 'moveit'}
+[0.000474] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.000525] (-) JobUnselected: {'identifier': 'moveit_chomp_optimizer_adapter'}
+[0.000572] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000617] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.000663] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.000705] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.000752] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.000794] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.000834] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.000874] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.000919] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.000963] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.001007] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.001050] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.001095] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.001141] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.001185] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.001233] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.001277] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.001323] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.001367] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.001409] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.001453] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.001498] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.001541] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.001627] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.001674] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.001719] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.001765] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.001808] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.001850] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.001891] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.001933] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.001982] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.002026] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.002083] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.002127] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.002172] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.002214] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.002257] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.002300] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.002344] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.002395] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.002438] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.002480] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.002524] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.002571] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.002623] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.002667] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.002706] (-) JobUnselected: {'identifier': 'rosparam_shortcuts'}
+[0.002745] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.002785] (-) JobUnselected: {'identifier': 'srdfdom'}
+[0.002828] (-) JobUnselected: {'identifier': 'ur'}
+[0.002875] (-) JobUnselected: {'identifier': 'ur_bringup'}
+[0.002937] (-) JobUnselected: {'identifier': 'ur_calibration'}
+[0.002981] (-) JobUnselected: {'identifier': 'ur_controllers'}
+[0.003025] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.003072] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.003118] (-) JobUnselected: {'identifier': 'ur_robot_driver'}
+[0.003172] (hello_moveit) JobQueued: {'identifier': 'hello_moveit', 'dependencies': OrderedDict([('moveit_common', '/home/kush/UR5_Project_New/install/moveit_common'), ('srdfdom', '/home/kush/UR5_Project_New/install/srdfdom'), ('moveit_core', '/home/kush/UR5_Project_New/install/moveit_core'), ('moveit_ros_occupancy_map_monitor', '/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor'), ('moveit_ros_planning', '/home/kush/UR5_Project_New/install/moveit_ros_planning'), ('moveit_kinematics', '/home/kush/UR5_Project_New/install/moveit_kinematics'), ('moveit_ros_warehouse', '/home/kush/UR5_Project_New/install/moveit_ros_warehouse'), ('moveit_ros_move_group', '/home/kush/UR5_Project_New/install/moveit_ros_move_group'), ('moveit_ros_planning_interface', '/home/kush/UR5_Project_New/install/moveit_ros_planning_interface')])}
+[0.004094] (hello_moveit) JobStarted: {'identifier': 'hello_moveit'}
+[0.099479] (-) TimerEvent: {}
+[0.100879] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'cmake'}
+[0.102603] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'build'}
+[0.104405] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kush/UR5_Project_New/build/hello_moveit', '--', '-j4', '-l4'], 'cwd': '/home/kush/UR5_Project_New/build/hello_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kush'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kush/UR5_Project_New/install/moveit_ros_planning_interface/lib:/home/kush/UR5_Project_New/install/moveit_ros_move_group/lib:/home/kush/UR5_Project_New/install/moveit_ros_warehouse/lib:/home/kush/UR5_Project_New/install/moveit_kinematics/lib:/home/kush/UR5_Project_New/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:/home/kush/UR5_Project_New/install/ur_robot_driver/lib:/home/kush/UR5_Project_New/install/ur_controllers/lib:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:/home/kush/UR5_Project_New/install/pilz_industrial_motion_planner_testutils/lib:/home/kush/UR5_Project_New/install/pilz_industrial_motion_planner/lib:/home/kush/UR5_Project_New/install/moveit_visual_tools/lib:/home/kush/UR5_Project_New/install/moveit_task_constructor_visualization/lib:/home/kush/UR5_Project_New/install/moveit_task_constructor_demo/lib:/home/kush/UR5_Project_New/install/moveit_task_constructor_capabilities/lib:/home/kush/UR5_Project_New/install/moveit_task_constructor_core/lib:/home/kush/UR5_Project_New/install/moveit_ros_control_interface/lib:/home/kush/UR5_Project_New/install/moveit_simple_controller_manager/lib:/home/kush/UR5_Project_New/install/moveit_setup_assistant/lib:/home/kush/UR5_Project_New/install/moveit_setup_srdf_plugins/lib:/home/kush/UR5_Project_New/install/moveit_setup_core_plugins/lib:/home/kush/UR5_Project_New/install/moveit_setup_controllers/lib:/home/kush/UR5_Project_New/install/moveit_setup_app_plugins/lib:/home/kush/UR5_Project_New/install/moveit_setup_framework/lib:/home/kush/UR5_Project_New/install/moveit_servo/lib:/home/kush/UR5_Project_New/install/moveit_ros_visualization/lib:/home/kush/UR5_Project_New/install/moveit_hybrid_planning/lib:/home/kush/UR5_Project_New/install/moveit_ros_benchmarks/lib:/home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/lib:/home/kush/UR5_Project_New/install/moveit_ros_perception/lib:/home/kush/UR5_Project_New/install/moveit_planners_ompl/lib:/home/kush/UR5_Project_New/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/kush/UR5_Project_New/install/moveit_planners_chomp/lib:/home/kush/UR5_Project_New/install/moveit_chomp_optimizer_adapter/lib:/home/kush/UR5_Project_New/install/chomp_motion_planner/lib:/home/kush/UR5_Project_New/install/rviz_marker_tools/lib:/home/kush/UR5_Project_New/install/rosparam_shortcuts/lib:/home/kush/UR5_Project_New/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kush'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/kush/UR5_Project_New/src'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/kush/UR5_Project_New/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kush/UR5_Project_New/install/moveit_core/bin:/home/kush/UR5_Project_New/install/ur_robot_driver/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kush-Lenovo-Z50-70:@/tmp/.ICE-unix/1916,unix/kush-Lenovo-Z50-70:/tmp/.ICE-unix/1916'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/kush/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-40bd35da67.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/kush'), ('AMENT_PREFIX_PATH', '/home/kush/UR5_Project_New/install/ur:/home/kush/UR5_Project_New/install/ur_calibration:/home/kush/UR5_Project_New/install/ur_robot_driver:/home/kush/UR5_Project_New/install/ur_moveit_config:/home/kush/UR5_Project_New/install/ur_bringup:/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/home/kush/UR5_Project_New/install/pilz_industrial_motion_planner_testutils:/home/kush/UR5_Project_New/install/moveit_runtime:/home/kush/UR5_Project_New/install/moveit2_tutorials:/home/kush/UR5_Project_New/install/moveit:/home/kush/UR5_Project_New/install/moveit_planners:/home/kush/UR5_Project_New/install/pilz_industrial_motion_planner:/home/kush/UR5_Project_New/install/moveit_visual_tools:/home/kush/UR5_Project_New/install/moveit_task_constructor_visualization:/home/kush/UR5_Project_New/install/moveit_task_constructor_demo:/home/kush/UR5_Project_New/install/moveit_task_constructor_capabilities:/home/kush/UR5_Project_New/install/moveit_task_constructor_core:/home/kush/UR5_Project_New/install/moveit_ros_control_interface:/home/kush/UR5_Project_New/install/moveit_plugins:/home/kush/UR5_Project_New/install/moveit_simple_controller_manager:/home/kush/UR5_Project_New/install/moveit_setup_assistant:/home/kush/UR5_Project_New/install/moveit_setup_srdf_plugins:/home/kush/UR5_Project_New/install/moveit_setup_core_plugins:/home/kush/UR5_Project_New/install/moveit_setup_controllers:/home/kush/UR5_Project_New/install/moveit_setup_app_plugins:/home/kush/UR5_Project_New/install/moveit_setup_framework:/home/kush/UR5_Project_New/install/moveit_servo:/home/kush/UR5_Project_New/install/moveit_ros:/home/kush/UR5_Project_New/install/moveit_ros_visualization:/home/kush/UR5_Project_New/install/moveit_hybrid_planning:/home/kush/UR5_Project_New/install/hello_moveit:/home/kush/UR5_Project_New/install/moveit_ros_planning_interface:/home/kush/UR5_Project_New/install/moveit_ros_benchmarks:/home/kush/UR5_Project_New/install/moveit_ros_warehouse:/home/kush/UR5_Project_New/install/moveit_ros_robot_interaction:/home/kush/UR5_Project_New/install/moveit_ros_perception:/home/kush/UR5_Project_New/install/moveit_resources_prbt_pg70_support:/home/kush/UR5_Project_New/install/moveit_resources_prbt_moveit_config:/home/kush/UR5_Project_New/install/moveit_ros_move_group:/home/kush/UR5_Project_New/install/moveit_planners_ompl:/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kush/UR5_Project_New/install/moveit_planners_chomp:/home/kush/UR5_Project_New/install/moveit_kinematics:/home/kush/UR5_Project_New/install/moveit_chomp_optimizer_adapter:/home/kush/UR5_Project_New/install/chomp_motion_planner:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/moveit_configs_utils:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/rviz_marker_tools:/home/kush/UR5_Project_New/install/rosparam_shortcuts:/home/kush/UR5_Project_New/install/moveit_task_constructor_msgs:/home/kush/UR5_Project_New/install/moveit_resources_prbt_support:/home/kush/UR5_Project_New/install/moveit_resources:/home/kush/UR5_Project_New/install/moveit_resources_pr2_description:/home/kush/UR5_Project_New/install/moveit_resources_panda_moveit_config:/home/kush/UR5_Project_New/install/moveit_resources_panda_description:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_moveit_config:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_description:/home/kush/UR5_Project_New/install/moveit_common:/home/kush/UR5_Project_New/install/launch_param_builder:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'XFCE'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '7'), ('PWD', '/home/kush/UR5_Project_New/build/hello_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/kush/UR5_Project_New/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kush/UR5_Project_New/install/moveit_ros_planning_interface:/home/kush/UR5_Project_New/install/moveit_ros_move_group:/home/kush/UR5_Project_New/install/moveit_ros_warehouse:/home/kush/UR5_Project_New/install/moveit_kinematics:/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/home/kush/UR5_Project_New/install/ur:/home/kush/UR5_Project_New/install/ur_calibration:/home/kush/UR5_Project_New/install/ur_robot_driver:/home/kush/UR5_Project_New/install/ur_moveit_config:/home/kush/UR5_Project_New/install/ur_bringup:/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/home/kush/UR5_Project_New/install/pilz_industrial_motion_planner_testutils:/home/kush/UR5_Project_New/install/moveit_runtime:/home/kush/UR5_Project_New/install/moveit2_tutorials:/home/kush/UR5_Project_New/install/moveit:/home/kush/UR5_Project_New/install/moveit_planners:/home/kush/UR5_Project_New/install/pilz_industrial_motion_planner:/home/kush/UR5_Project_New/install/moveit_visual_tools:/home/kush/UR5_Project_New/install/moveit_task_constructor_visualization:/home/kush/UR5_Project_New/install/moveit_task_constructor_demo:/home/kush/UR5_Project_New/install/moveit_task_constructor_capabilities:/home/kush/UR5_Project_New/install/moveit_task_constructor_core:/home/kush/UR5_Project_New/install/moveit_ros_control_interface:/home/kush/UR5_Project_New/install/moveit_plugins:/home/kush/UR5_Project_New/install/moveit_simple_controller_manager:/home/kush/UR5_Project_New/install/moveit_setup_assistant:/home/kush/UR5_Project_New/install/moveit_setup_srdf_plugins:/home/kush/UR5_Project_New/install/moveit_setup_core_plugins:/home/kush/UR5_Project_New/install/moveit_setup_controllers:/home/kush/UR5_Project_New/install/moveit_setup_app_plugins:/home/kush/UR5_Project_New/install/moveit_setup_framework:/home/kush/UR5_Project_New/install/moveit_servo:/home/kush/UR5_Project_New/install/moveit_ros:/home/kush/UR5_Project_New/install/moveit_ros_visualization:/home/kush/UR5_Project_New/install/moveit_hybrid_planning:/home/kush/UR5_Project_New/install/hello_moveit:/home/kush/UR5_Project_New/install/moveit_ros_benchmarks:/home/kush/UR5_Project_New/install/moveit_ros_robot_interaction:/home/kush/UR5_Project_New/install/moveit_ros_perception:/home/kush/UR5_Project_New/install/moveit_resources_prbt_pg70_support:/home/kush/UR5_Project_New/install/moveit_resources_prbt_moveit_config:/home/kush/UR5_Project_New/install/moveit_planners_ompl:/home/kush/UR5_Project_New/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kush/UR5_Project_New/install/moveit_planners_chomp:/home/kush/UR5_Project_New/install/moveit_chomp_optimizer_adapter:/home/kush/UR5_Project_New/install/chomp_motion_planner:/home/kush/UR5_Project_New/install/rviz_marker_tools:/home/kush/UR5_Project_New/install/rosparam_shortcuts:/home/kush/UR5_Project_New/install/moveit_task_constructor_msgs:/home/kush/UR5_Project_New/install/moveit_resources_prbt_support:/home/kush/UR5_Project_New/install/moveit_resources:/home/kush/UR5_Project_New/install/moveit_resources_pr2_description:/home/kush/UR5_Project_New/install/moveit_resources_panda_moveit_config:/home/kush/UR5_Project_New/install/moveit_resources_panda_description:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_moveit_config:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_description:/home/kush/UR5_Project_New/install/moveit_configs_utils:/home/kush/UR5_Project_New/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[0.199622] (-) TimerEvent: {}
+[0.219930] (hello_moveit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hello_moveit\x1b[0m\n'}
+[0.295055] (hello_moveit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o\x1b[0m\n'}
+[0.299762] (-) TimerEvent: {}
+[0.400420] (-) TimerEvent: {}
+[0.500923] (-) TimerEvent: {}
+[0.601380] (-) TimerEvent: {}
+[0.701898] (-) TimerEvent: {}
+[0.802342] (-) TimerEvent: {}
+[0.902771] (-) TimerEvent: {}
+[1.003215] (-) TimerEvent: {}
+[1.103676] (-) TimerEvent: {}
+[1.204216] (-) TimerEvent: {}
+[1.304684] (-) TimerEvent: {}
+[1.405065] (-) TimerEvent: {}
+[1.505441] (-) TimerEvent: {}
+[1.605821] (-) TimerEvent: {}
+[1.706189] (-) TimerEvent: {}
+[1.806563] (-) TimerEvent: {}
+[1.906941] (-) TimerEvent: {}
+[2.007321] (-) TimerEvent: {}
+[2.107694] (-) TimerEvent: {}
+[2.208098] (-) TimerEvent: {}
+[2.308475] (-) TimerEvent: {}
+[2.408854] (-) TimerEvent: {}
+[2.509238] (-) TimerEvent: {}
+[2.609652] (-) TimerEvent: {}
+[2.710079] (-) TimerEvent: {}
+[2.810480] (-) TimerEvent: {}
+[2.910929] (-) TimerEvent: {}
+[3.011323] (-) TimerEvent: {}
+[3.111712] (-) TimerEvent: {}
+[3.212187] (-) TimerEvent: {}
+[3.312591] (-) TimerEvent: {}
+[3.412990] (-) TimerEvent: {}
+[3.513364] (-) TimerEvent: {}
+[3.613760] (-) TimerEvent: {}
+[3.714205] (-) TimerEvent: {}
+[3.814602] (-) TimerEvent: {}
+[3.914974] (-) TimerEvent: {}
+[4.015357] (-) TimerEvent: {}
+[4.115713] (-) TimerEvent: {}
+[4.216140] (-) TimerEvent: {}
+[4.316602] (-) TimerEvent: {}
+[4.416982] (-) TimerEvent: {}
+[4.517374] (-) TimerEvent: {}
+[4.617845] (-) TimerEvent: {}
+[4.718261] (-) TimerEvent: {}
+[4.818685] (-) TimerEvent: {}
+[4.921398] (-) TimerEvent: {}
+[5.021872] (-) TimerEvent: {}
+[5.122677] (-) TimerEvent: {}
+[5.223087] (-) TimerEvent: {}
+[5.323541] (-) TimerEvent: {}
+[5.423934] (-) TimerEvent: {}
+[5.524337] (-) TimerEvent: {}
+[5.624749] (-) TimerEvent: {}
+[5.725158] (-) TimerEvent: {}
+[5.825656] (-) TimerEvent: {}
+[5.926108] (-) TimerEvent: {}
+[6.026509] (-) TimerEvent: {}
+[6.126897] (-) TimerEvent: {}
+[6.227269] (-) TimerEvent: {}
+[6.327651] (-) TimerEvent: {}
+[6.428036] (-) TimerEvent: {}
+[6.528455] (-) TimerEvent: {}
+[6.628846] (-) TimerEvent: {}
+[6.729267] (-) TimerEvent: {}
+[6.829642] (-) TimerEvent: {}
+[6.930015] (-) TimerEvent: {}
+[7.030445] (-) TimerEvent: {}
+[7.130826] (-) TimerEvent: {}
+[7.231941] (-) TimerEvent: {}
+[7.332374] (-) TimerEvent: {}
+[7.433037] (-) TimerEvent: {}
+[7.534153] (-) TimerEvent: {}
+[7.634797] (-) TimerEvent: {}
+[7.735313] (-) TimerEvent: {}
+[7.835662] (-) TimerEvent: {}
+[7.936012] (-) TimerEvent: {}
+[8.036524] (-) TimerEvent: {}
+[8.136910] (-) TimerEvent: {}
+[8.237598] (-) TimerEvent: {}
+[8.337948] (-) TimerEvent: {}
+[8.438278] (-) TimerEvent: {}
+[8.538632] (-) TimerEvent: {}
+[8.638980] (-) TimerEvent: {}
+[8.739321] (-) TimerEvent: {}
+[8.839680] (-) TimerEvent: {}
+[8.940182] (-) TimerEvent: {}
+[9.040535] (-) TimerEvent: {}
+[9.140899] (-) TimerEvent: {}
+[9.241430] (-) TimerEvent: {}
+[9.342341] (-) TimerEvent: {}
+[9.443464] (-) TimerEvent: {}
+[9.545735] (-) TimerEvent: {}
+[9.646181] (-) TimerEvent: {}
+[9.746560] (-) TimerEvent: {}
+[9.846902] (-) TimerEvent: {}
+[9.947352] (-) TimerEvent: {}
+[10.048069] (-) TimerEvent: {}
+[10.148499] (-) TimerEvent: {}
+[10.248881] (-) TimerEvent: {}
+[10.349241] (-) TimerEvent: {}
+[10.449633] (-) TimerEvent: {}
+[10.550096] (-) TimerEvent: {}
+[10.650480] (-) TimerEvent: {}
+[10.750913] (-) TimerEvent: {}
+[10.851280] (-) TimerEvent: {}
+[10.951681] (-) TimerEvent: {}
+[11.052022] (-) TimerEvent: {}
+[11.152380] (-) TimerEvent: {}
+[11.253089] (-) TimerEvent: {}
+[11.353535] (-) TimerEvent: {}
+[11.454013] (-) TimerEvent: {}
+[11.554489] (-) TimerEvent: {}
+[11.655087] (-) TimerEvent: {}
+[11.755542] (-) TimerEvent: {}
+[11.855871] (-) TimerEvent: {}
+[11.956303] (-) TimerEvent: {}
+[12.056749] (-) TimerEvent: {}
+[12.157195] (-) TimerEvent: {}
+[12.257660] (-) TimerEvent: {}
+[12.358091] (-) TimerEvent: {}
+[12.458513] (-) TimerEvent: {}
+[12.558929] (-) TimerEvent: {}
+[12.659351] (-) TimerEvent: {}
+[12.759737] (-) TimerEvent: {}
+[12.860148] (-) TimerEvent: {}
+[12.960539] (-) TimerEvent: {}
+[13.060916] (-) TimerEvent: {}
+[13.161289] (-) TimerEvent: {}
+[13.262346] (-) TimerEvent: {}
+[13.362743] (-) TimerEvent: {}
+[13.463150] (-) TimerEvent: {}
+[13.563521] (-) TimerEvent: {}
+[13.663900] (-) TimerEvent: {}
+[13.764276] (-) TimerEvent: {}
+[13.864686] (-) TimerEvent: {}
+[13.965201] (-) TimerEvent: {}
+[14.065724] (-) TimerEvent: {}
+[14.166160] (-) TimerEvent: {}
+[14.266514] (-) TimerEvent: {}
+[14.366866] (-) TimerEvent: {}
+[14.467210] (-) TimerEvent: {}
+[14.567557] (-) TimerEvent: {}
+[14.667959] (-) TimerEvent: {}
+[14.750416] (hello_moveit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hello_moveit\x1b[0m\n'}
+[14.768071] (-) TimerEvent: {}
+[14.868424] (-) TimerEvent: {}
+[14.968852] (-) TimerEvent: {}
+[15.069358] (-) TimerEvent: {}
+[15.169761] (-) TimerEvent: {}
+[15.270522] (-) TimerEvent: {}
+[15.371287] (-) TimerEvent: {}
+[15.442388] (hello_moveit) StdoutLine: {'line': b'[100%] Built target hello_moveit\n'}
+[15.462798] (hello_moveit) CommandEnded: {'returncode': 0}
+[15.471411] (-) TimerEvent: {}
+[15.535002] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'install'}
+[15.552999] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kush/UR5_Project_New/build/hello_moveit'], 'cwd': '/home/kush/UR5_Project_New/build/hello_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kush'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kush/UR5_Project_New/install/moveit_ros_planning_interface/lib:/home/kush/UR5_Project_New/install/moveit_ros_move_group/lib:/home/kush/UR5_Project_New/install/moveit_ros_warehouse/lib:/home/kush/UR5_Project_New/install/moveit_kinematics/lib:/home/kush/UR5_Project_New/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:/home/kush/UR5_Project_New/install/ur_robot_driver/lib:/home/kush/UR5_Project_New/install/ur_controllers/lib:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:/home/kush/UR5_Project_New/install/pilz_industrial_motion_planner_testutils/lib:/home/kush/UR5_Project_New/install/pilz_industrial_motion_planner/lib:/home/kush/UR5_Project_New/install/moveit_visual_tools/lib:/home/kush/UR5_Project_New/install/moveit_task_constructor_visualization/lib:/home/kush/UR5_Project_New/install/moveit_task_constructor_demo/lib:/home/kush/UR5_Project_New/install/moveit_task_constructor_capabilities/lib:/home/kush/UR5_Project_New/install/moveit_task_constructor_core/lib:/home/kush/UR5_Project_New/install/moveit_ros_control_interface/lib:/home/kush/UR5_Project_New/install/moveit_simple_controller_manager/lib:/home/kush/UR5_Project_New/install/moveit_setup_assistant/lib:/home/kush/UR5_Project_New/install/moveit_setup_srdf_plugins/lib:/home/kush/UR5_Project_New/install/moveit_setup_core_plugins/lib:/home/kush/UR5_Project_New/install/moveit_setup_controllers/lib:/home/kush/UR5_Project_New/install/moveit_setup_app_plugins/lib:/home/kush/UR5_Project_New/install/moveit_setup_framework/lib:/home/kush/UR5_Project_New/install/moveit_servo/lib:/home/kush/UR5_Project_New/install/moveit_ros_visualization/lib:/home/kush/UR5_Project_New/install/moveit_hybrid_planning/lib:/home/kush/UR5_Project_New/install/moveit_ros_benchmarks/lib:/home/kush/UR5_Project_New/install/moveit_ros_robot_interaction/lib:/home/kush/UR5_Project_New/install/moveit_ros_perception/lib:/home/kush/UR5_Project_New/install/moveit_planners_ompl/lib:/home/kush/UR5_Project_New/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/kush/UR5_Project_New/install/moveit_planners_chomp/lib:/home/kush/UR5_Project_New/install/moveit_chomp_optimizer_adapter/lib:/home/kush/UR5_Project_New/install/chomp_motion_planner/lib:/home/kush/UR5_Project_New/install/rviz_marker_tools/lib:/home/kush/UR5_Project_New/install/rosparam_shortcuts/lib:/home/kush/UR5_Project_New/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kush'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/kush/UR5_Project_New/src'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/kush/UR5_Project_New/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kush/UR5_Project_New/install/moveit_core/bin:/home/kush/UR5_Project_New/install/ur_robot_driver/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kush-Lenovo-Z50-70:@/tmp/.ICE-unix/1916,unix/kush-Lenovo-Z50-70:/tmp/.ICE-unix/1916'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/kush/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-40bd35da67.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/kush'), ('AMENT_PREFIX_PATH', '/home/kush/UR5_Project_New/install/ur:/home/kush/UR5_Project_New/install/ur_calibration:/home/kush/UR5_Project_New/install/ur_robot_driver:/home/kush/UR5_Project_New/install/ur_moveit_config:/home/kush/UR5_Project_New/install/ur_bringup:/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/home/kush/UR5_Project_New/install/pilz_industrial_motion_planner_testutils:/home/kush/UR5_Project_New/install/moveit_runtime:/home/kush/UR5_Project_New/install/moveit2_tutorials:/home/kush/UR5_Project_New/install/moveit:/home/kush/UR5_Project_New/install/moveit_planners:/home/kush/UR5_Project_New/install/pilz_industrial_motion_planner:/home/kush/UR5_Project_New/install/moveit_visual_tools:/home/kush/UR5_Project_New/install/moveit_task_constructor_visualization:/home/kush/UR5_Project_New/install/moveit_task_constructor_demo:/home/kush/UR5_Project_New/install/moveit_task_constructor_capabilities:/home/kush/UR5_Project_New/install/moveit_task_constructor_core:/home/kush/UR5_Project_New/install/moveit_ros_control_interface:/home/kush/UR5_Project_New/install/moveit_plugins:/home/kush/UR5_Project_New/install/moveit_simple_controller_manager:/home/kush/UR5_Project_New/install/moveit_setup_assistant:/home/kush/UR5_Project_New/install/moveit_setup_srdf_plugins:/home/kush/UR5_Project_New/install/moveit_setup_core_plugins:/home/kush/UR5_Project_New/install/moveit_setup_controllers:/home/kush/UR5_Project_New/install/moveit_setup_app_plugins:/home/kush/UR5_Project_New/install/moveit_setup_framework:/home/kush/UR5_Project_New/install/moveit_servo:/home/kush/UR5_Project_New/install/moveit_ros:/home/kush/UR5_Project_New/install/moveit_ros_visualization:/home/kush/UR5_Project_New/install/moveit_hybrid_planning:/home/kush/UR5_Project_New/install/hello_moveit:/home/kush/UR5_Project_New/install/moveit_ros_planning_interface:/home/kush/UR5_Project_New/install/moveit_ros_benchmarks:/home/kush/UR5_Project_New/install/moveit_ros_warehouse:/home/kush/UR5_Project_New/install/moveit_ros_robot_interaction:/home/kush/UR5_Project_New/install/moveit_ros_perception:/home/kush/UR5_Project_New/install/moveit_resources_prbt_pg70_support:/home/kush/UR5_Project_New/install/moveit_resources_prbt_moveit_config:/home/kush/UR5_Project_New/install/moveit_ros_move_group:/home/kush/UR5_Project_New/install/moveit_planners_ompl:/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kush/UR5_Project_New/install/moveit_planners_chomp:/home/kush/UR5_Project_New/install/moveit_kinematics:/home/kush/UR5_Project_New/install/moveit_chomp_optimizer_adapter:/home/kush/UR5_Project_New/install/chomp_motion_planner:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/moveit_configs_utils:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/rviz_marker_tools:/home/kush/UR5_Project_New/install/rosparam_shortcuts:/home/kush/UR5_Project_New/install/moveit_task_constructor_msgs:/home/kush/UR5_Project_New/install/moveit_resources_prbt_support:/home/kush/UR5_Project_New/install/moveit_resources:/home/kush/UR5_Project_New/install/moveit_resources_pr2_description:/home/kush/UR5_Project_New/install/moveit_resources_panda_moveit_config:/home/kush/UR5_Project_New/install/moveit_resources_panda_description:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_moveit_config:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_description:/home/kush/UR5_Project_New/install/moveit_common:/home/kush/UR5_Project_New/install/launch_param_builder:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'XFCE'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '7'), ('PWD', '/home/kush/UR5_Project_New/build/hello_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/kush/UR5_Project_New/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kush/UR5_Project_New/install/moveit_ros_planning_interface:/home/kush/UR5_Project_New/install/moveit_ros_move_group:/home/kush/UR5_Project_New/install/moveit_ros_warehouse:/home/kush/UR5_Project_New/install/moveit_kinematics:/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/home/kush/UR5_Project_New/install/ur:/home/kush/UR5_Project_New/install/ur_calibration:/home/kush/UR5_Project_New/install/ur_robot_driver:/home/kush/UR5_Project_New/install/ur_moveit_config:/home/kush/UR5_Project_New/install/ur_bringup:/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/home/kush/UR5_Project_New/install/pilz_industrial_motion_planner_testutils:/home/kush/UR5_Project_New/install/moveit_runtime:/home/kush/UR5_Project_New/install/moveit2_tutorials:/home/kush/UR5_Project_New/install/moveit:/home/kush/UR5_Project_New/install/moveit_planners:/home/kush/UR5_Project_New/install/pilz_industrial_motion_planner:/home/kush/UR5_Project_New/install/moveit_visual_tools:/home/kush/UR5_Project_New/install/moveit_task_constructor_visualization:/home/kush/UR5_Project_New/install/moveit_task_constructor_demo:/home/kush/UR5_Project_New/install/moveit_task_constructor_capabilities:/home/kush/UR5_Project_New/install/moveit_task_constructor_core:/home/kush/UR5_Project_New/install/moveit_ros_control_interface:/home/kush/UR5_Project_New/install/moveit_plugins:/home/kush/UR5_Project_New/install/moveit_simple_controller_manager:/home/kush/UR5_Project_New/install/moveit_setup_assistant:/home/kush/UR5_Project_New/install/moveit_setup_srdf_plugins:/home/kush/UR5_Project_New/install/moveit_setup_core_plugins:/home/kush/UR5_Project_New/install/moveit_setup_controllers:/home/kush/UR5_Project_New/install/moveit_setup_app_plugins:/home/kush/UR5_Project_New/install/moveit_setup_framework:/home/kush/UR5_Project_New/install/moveit_servo:/home/kush/UR5_Project_New/install/moveit_ros:/home/kush/UR5_Project_New/install/moveit_ros_visualization:/home/kush/UR5_Project_New/install/moveit_hybrid_planning:/home/kush/UR5_Project_New/install/hello_moveit:/home/kush/UR5_Project_New/install/moveit_ros_benchmarks:/home/kush/UR5_Project_New/install/moveit_ros_robot_interaction:/home/kush/UR5_Project_New/install/moveit_ros_perception:/home/kush/UR5_Project_New/install/moveit_resources_prbt_pg70_support:/home/kush/UR5_Project_New/install/moveit_resources_prbt_moveit_config:/home/kush/UR5_Project_New/install/moveit_planners_ompl:/home/kush/UR5_Project_New/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kush/UR5_Project_New/install/moveit_planners_chomp:/home/kush/UR5_Project_New/install/moveit_chomp_optimizer_adapter:/home/kush/UR5_Project_New/install/chomp_motion_planner:/home/kush/UR5_Project_New/install/rviz_marker_tools:/home/kush/UR5_Project_New/install/rosparam_shortcuts:/home/kush/UR5_Project_New/install/moveit_task_constructor_msgs:/home/kush/UR5_Project_New/install/moveit_resources_prbt_support:/home/kush/UR5_Project_New/install/moveit_resources:/home/kush/UR5_Project_New/install/moveit_resources_pr2_description:/home/kush/UR5_Project_New/install/moveit_resources_panda_moveit_config:/home/kush/UR5_Project_New/install/moveit_resources_panda_description:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_moveit_config:/home/kush/UR5_Project_New/install/moveit_resources_fanuc_description:/home/kush/UR5_Project_New/install/moveit_configs_utils:/home/kush/UR5_Project_New/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[15.569583] (hello_moveit) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[15.570633] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kush/UR5_Project_New/install/hello_moveit/lib/hello_moveit/hello_moveit\n'}
+[15.571510] (-) TimerEvent: {}
+[15.584003] (hello_moveit) StdoutLine: {'line': b'-- Set runtime path of "/home/kush/UR5_Project_New/install/hello_moveit/lib/hello_moveit/hello_moveit" to ""\n'}
+[15.584546] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kush/UR5_Project_New/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit\n'}
+[15.584875] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kush/UR5_Project_New/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit\n'}
+[15.585112] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh\n'}
+[15.585305] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv\n'}
+[15.585714] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/environment/path.sh\n'}
+[15.585914] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/environment/path.dsv\n'}
+[15.586122] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/local_setup.bash\n'}
+[15.586317] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/local_setup.sh\n'}
+[15.586516] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/local_setup.zsh\n'}
+[15.586703] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/local_setup.dsv\n'}
+[15.586889] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/package.dsv\n'}
+[15.587075] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kush/UR5_Project_New/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit\n'}
+[15.587259] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake\n'}
+[15.587451] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake\n'}
+[15.587840] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/package.xml\n'}
+[15.596960] (hello_moveit) CommandEnded: {'returncode': 0}
+[15.671620] (-) TimerEvent: {}
+[15.728335] (hello_moveit) JobEnded: {'identifier': 'hello_moveit', 'rc': 0}
+[15.729593] (-) EventReactorShutdown: {}

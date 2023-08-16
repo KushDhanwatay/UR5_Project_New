@@ -1,0 +1,60 @@
+[0.154s] Invoking command in '/home/kush/UR5_Project_New/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble /usr/bin/cmake /home/kush/UR5_Project_New/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/install/rviz_marker_tools
+[0.283s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.655s] -- Found moveit_common: 2.5.4 (/home/kush/UR5_Project_New/install/moveit_common/share/moveit_common/cmake)
+[1.024s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.024s] -- BACKWARD_HAS_UNWIND=1
+[1.024s] -- BACKWARD_HAS_BACKTRACE=0
+[1.025s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.025s] -- BACKWARD_HAS_DW=1
+[1.025s] -- BACKWARD_HAS_BFD=0
+[1.026s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.140s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.412s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.440s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.446s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.457s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.479s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.507s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.846s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[3.969s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.029s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.371s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.184s] -- Found rviz2: 11.2.6 (/opt/ros/humble/share/rviz2/cmake)
+[7.280s] -- Found tf2_eigen: 0.25.3 (/opt/ros/humble/share/tf2_eigen/cmake)
+[9.812s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[10.551s] -- Configuring done
+[10.767s] -- Generating done
+[10.798s] -- Build files have been written to: /home/kush/UR5_Project_New/build/rviz_marker_tools
+[10.823s] Invoked command in '/home/kush/UR5_Project_New/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble /usr/bin/cmake /home/kush/UR5_Project_New/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/install/rviz_marker_tools
+[10.836s] Invoking command in '/home/kush/UR5_Project_New/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble /usr/bin/cmake --build /home/kush/UR5_Project_New/build/rviz_marker_tools -- -j4 -l4
+[11.062s] [35m[1mConsolidate compiler generated dependencies of target rviz_marker_tools[0m
+[12.104s] [100%] Built target rviz_marker_tools
+[12.163s] Invoked command in '/home/kush/UR5_Project_New/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble /usr/bin/cmake --build /home/kush/UR5_Project_New/build/rviz_marker_tools -- -j4 -l4
+[12.235s] Invoking command in '/home/kush/UR5_Project_New/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble /usr/bin/cmake --install /home/kush/UR5_Project_New/build/rviz_marker_tools
+[12.260s] -- Install configuration: "Release"
+[12.260s] -- Up-to-date: /home/kush/UR5_Project_New/install/rviz_marker_tools/include
+[12.262s] -- Up-to-date: /home/kush/UR5_Project_New/install/rviz_marker_tools/include/rviz_marker_tools
+[12.266s] -- Up-to-date: /home/kush/UR5_Project_New/install/rviz_marker_tools/include/rviz_marker_tools/marker_creation.h
+[12.342s] -- Up-to-date: /home/kush/UR5_Project_New/install/rviz_marker_tools/lib/librviz_marker_tools.so
+[12.343s] -- Up-to-date: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.sh
+[12.343s] -- Installing: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.dsv
+[12.355s] -- Up-to-date: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/ament_index/resource_index/package_run_dependencies/rviz_marker_tools
+[12.385s] -- Installing: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/ament_index/resource_index/parent_prefix_path/rviz_marker_tools
+[12.386s] -- Up-to-date: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.sh
+[12.386s] -- Installing: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.dsv
+[12.386s] -- Up-to-date: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.sh
+[12.386s] -- Installing: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.dsv
+[12.387s] -- Up-to-date: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.bash
+[12.387s] -- Up-to-date: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.sh
+[12.387s] -- Up-to-date: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.zsh
+[12.387s] -- Installing: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.dsv
+[12.387s] -- Installing: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/rviz_marker_tools/package.dsv
+[12.387s] -- Up-to-date: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/ament_index/resource_index/packages/rviz_marker_tools
+[12.389s] -- Up-to-date: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport.cmake
+[12.390s] -- Up-to-date: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport-release.cmake
+[12.393s] -- Up-to-date: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_targets-extras.cmake
+[12.393s] -- Up-to-date: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.393s] -- Up-to-date: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig.cmake
+[12.394s] -- Up-to-date: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig-version.cmake
+[12.394s] -- Up-to-date: /home/kush/UR5_Project_New/install/rviz_marker_tools/share/rviz_marker_tools/package.xml
+[12.409s] Invoked command in '/home/kush/UR5_Project_New/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble /usr/bin/cmake --install /home/kush/UR5_Project_New/build/rviz_marker_tools

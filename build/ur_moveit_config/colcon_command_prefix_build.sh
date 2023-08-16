@@ -2,6 +2,7 @@
 . "/home/kush/UR5_Project_New/install/launch_param_builder/share/launch_param_builder/package.sh"
 . "/home/kush/UR5_Project_New/install/moveit_common/share/moveit_common/package.sh"
 . "/home/kush/UR5_Project_New/install/srdfdom/share/srdfdom/package.sh"
+. "/home/kush/UR5_Project_New/install/ur_description/share/ur_description/package.sh"
 . "/home/kush/UR5_Project_New/install/moveit_configs_utils/share/moveit_configs_utils/package.sh"
 . "/home/kush/UR5_Project_New/install/moveit_core/share/moveit_core/package.sh"
 . "/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/package.sh"

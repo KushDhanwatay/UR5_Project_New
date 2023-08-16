@@ -1,0 +1,348 @@
+[0.000000] (-) TimerEvent: {}
+[0.001050] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.001133] (-) JobUnselected: {'identifier': 'launch_param_builder'}
+[0.001188] (-) JobUnselected: {'identifier': 'moveit'}
+[0.001240] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.001290] (-) JobUnselected: {'identifier': 'moveit_chomp_optimizer_adapter'}
+[0.001839] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.001982] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.002057] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.002111] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.002159] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.003163] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.003309] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.003384] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.003438] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.003487] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.003789] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.003863] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.004549] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.005125] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.005244] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.005408] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.005542] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.005598] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.005648] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.005698] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.005749] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.005796] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.005858] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.006005] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.006054] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.006240] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.006292] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.006366] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.006632] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.006818] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.006926] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.006978] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.007025] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.007077] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.007140] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.007191] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.007235] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.007279] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.007328] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.007386] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.007478] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.007687] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.007742] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.007794] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.007876] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.007925] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.007968] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.008323] (-) JobUnselected: {'identifier': 'rosparam_shortcuts'}
+[0.010616] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.010890] (-) JobUnselected: {'identifier': 'srdfdom'}
+[0.011085] (-) JobUnselected: {'identifier': 'ur'}
+[0.011268] (-) JobUnselected: {'identifier': 'ur_bringup'}
+[0.011449] (-) JobUnselected: {'identifier': 'ur_calibration'}
+[0.011555] (-) JobUnselected: {'identifier': 'ur_controllers'}
+[0.011716] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.011774] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.011825] (-) JobUnselected: {'identifier': 'ur_robot_driver'}
+[0.011883] (hello_moveit) JobQueued: {'identifier': 'hello_moveit', 'dependencies': OrderedDict([('moveit_common', '/home/kush/UR5_Project_New/install/moveit_common'), ('srdfdom', '/home/kush/UR5_Project_New/install/srdfdom'), ('moveit_core', '/home/kush/UR5_Project_New/install/moveit_core'), ('moveit_ros_occupancy_map_monitor', '/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor'), ('moveit_ros_planning', '/home/kush/UR5_Project_New/install/moveit_ros_planning'), ('moveit_kinematics', '/home/kush/UR5_Project_New/install/moveit_kinematics'), ('moveit_ros_warehouse', '/home/kush/UR5_Project_New/install/moveit_ros_warehouse'), ('moveit_ros_move_group', '/home/kush/UR5_Project_New/install/moveit_ros_move_group'), ('moveit_ros_planning_interface', '/home/kush/UR5_Project_New/install/moveit_ros_planning_interface')])}
+[0.011990] (hello_moveit) JobStarted: {'identifier': 'hello_moveit'}
+[0.054084] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'cmake'}
+[0.054469] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '/home/kush/UR5_Project_New/src/hello_moveit', '-DCMAKE_BUILD_TYPE=Debug', '-DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/install/hello_moveit'], 'cwd': '/home/kush/UR5_Project_New/build/hello_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kush'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kush/UR5_Project_New/install/moveit_ros_planning_interface/lib:/home/kush/UR5_Project_New/install/moveit_ros_move_group/lib:/home/kush/UR5_Project_New/install/moveit_ros_warehouse/lib:/home/kush/UR5_Project_New/install/moveit_kinematics/lib:/home/kush/UR5_Project_New/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kush'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/kush/UR5_Project_New/src'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kush/UR5_Project_New/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kush-Lenovo-Z50-70:@/tmp/.ICE-unix/1916,unix/kush-Lenovo-Z50-70:/tmp/.ICE-unix/1916'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/kush/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-40bd35da67.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/kush'), ('AMENT_PREFIX_PATH', '/home/kush/UR5_Project_New/install/moveit_ros_planning_interface:/home/kush/UR5_Project_New/install/moveit_ros_move_group:/home/kush/UR5_Project_New/install/moveit_ros_warehouse:/home/kush/UR5_Project_New/install/moveit_kinematics:/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'XFCE'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '7'), ('PWD', '/home/kush/UR5_Project_New/build/hello_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kush/UR5_Project_New/install/moveit_ros_planning_interface:/home/kush/UR5_Project_New/install/moveit_ros_move_group:/home/kush/UR5_Project_New/install/moveit_ros_warehouse:/home/kush/UR5_Project_New/install/moveit_kinematics:/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble')]), 'shell': False}
+[0.098979] (-) TimerEvent: {}
+[0.139286] (hello_moveit) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199106] (-) TimerEvent: {}
+[0.220342] (hello_moveit) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.232347] (hello_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299221] (-) TimerEvent: {}
+[0.337342] (hello_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.349448] (hello_moveit) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.349844] (hello_moveit) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.350413] (hello_moveit) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.355076] (hello_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399340] (-) TimerEvent: {}
+[0.499803] (-) TimerEvent: {}
+[0.575580] (hello_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.587503] (hello_moveit) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.587997] (hello_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.589082] (hello_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.593890] (hello_moveit) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.599919] (-) TimerEvent: {}
+[0.700628] (-) TimerEvent: {}
+[0.801016] (-) TimerEvent: {}
+[0.857764] (hello_moveit) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.901146] (-) TimerEvent: {}
+[0.991113] (hello_moveit) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.4 (/home/kush/UR5_Project_New/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)\n'}
+[1.001255] (-) TimerEvent: {}
+[1.101682] (-) TimerEvent: {}
+[1.202049] (-) TimerEvent: {}
+[1.251160] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[1.302164] (-) TimerEvent: {}
+[1.323204] (hello_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.334743] (hello_moveit) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.350940] (hello_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.372656] (hello_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.402287] (-) TimerEvent: {}
+[1.403652] (hello_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.502409] (-) TimerEvent: {}
+[1.602830] (-) TimerEvent: {}
+[1.703170] (-) TimerEvent: {}
+[1.803482] (-) TimerEvent: {}
+[1.903819] (-) TimerEvent: {}
+[2.004158] (-) TimerEvent: {}
+[2.104499] (-) TimerEvent: {}
+[2.204836] (-) TimerEvent: {}
+[2.305183] (-) TimerEvent: {}
+[2.405494] (-) TimerEvent: {}
+[2.505844] (-) TimerEvent: {}
+[2.606183] (-) TimerEvent: {}
+[2.706543] (-) TimerEvent: {}
+[2.804632] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[2.806635] (-) TimerEvent: {}
+[2.835060] (hello_moveit) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[2.906763] (-) TimerEvent: {}
+[2.937757] (hello_moveit) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.943184] (hello_moveit) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.006889] (-) TimerEvent: {}
+[3.096811] (hello_moveit) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.107006] (-) TimerEvent: {}
+[3.139791] (hello_moveit) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.206859] (hello_moveit) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.207074] (-) TimerEvent: {}
+[3.227761] (hello_moveit) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.307217] (-) TimerEvent: {}
+[3.407576] (-) TimerEvent: {}
+[3.462390] (hello_moveit) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.5 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[3.507703] (-) TimerEvent: {}
+[3.538035] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[3.607826] (-) TimerEvent: {}
+[3.686327] (hello_moveit) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[3.707941] (-) TimerEvent: {}
+[3.808293] (-) TimerEvent: {}
+[3.908649] (-) TimerEvent: {}
+[3.931896] (hello_moveit) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.932206] (hello_moveit) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.008785] (-) TimerEvent: {}
+[4.109155] (-) TimerEvent: {}
+[4.209522] (-) TimerEvent: {}
+[4.309912] (-) TimerEvent: {}
+[4.410353] (-) TimerEvent: {}
+[4.510719] (-) TimerEvent: {}
+[4.611063] (-) TimerEvent: {}
+[4.711393] (-) TimerEvent: {}
+[4.811773] (-) TimerEvent: {}
+[4.828873] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[4.911902] (-) TimerEvent: {}
+[5.012260] (-) TimerEvent: {}
+[5.112623] (-) TimerEvent: {}
+[5.213345] (-) TimerEvent: {}
+[5.313696] (-) TimerEvent: {}
+[5.414116] (-) TimerEvent: {}
+[5.514445] (-) TimerEvent: {}
+[5.614785] (-) TimerEvent: {}
+[5.642191] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[5.714913] (-) TimerEvent: {}
+[5.815263] (-) TimerEvent: {}
+[5.915612] (-) TimerEvent: {}
+[6.002423] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[6.015735] (-) TimerEvent: {}
+[6.116073] (-) TimerEvent: {}
+[6.216412] (-) TimerEvent: {}
+[6.316755] (-) TimerEvent: {}
+[6.417361] (-) TimerEvent: {}
+[6.517710] (-) TimerEvent: {}
+[6.618069] (-) TimerEvent: {}
+[6.668599] (hello_moveit) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.718193] (-) TimerEvent: {}
+[6.787700] (hello_moveit) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.788093] (hello_moveit) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kush/UR5_Project_New/src/hello_moveit/include>\n'}
+[6.788327] (hello_moveit) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.789576] (hello_moveit) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.791069] (hello_moveit) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.791285] (hello_moveit) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.791980] (hello_moveit) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.794144] (hello_moveit) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.818312] (-) TimerEvent: {}
+[6.842693] (hello_moveit) StdoutLine: {'line': b'-- Generating done\n'}
+[6.846053] (hello_moveit) StdoutLine: {'line': b'-- Build files have been written to: /home/kush/UR5_Project_New/build/hello_moveit\n'}
+[6.866892] (hello_moveit) CommandEnded: {'returncode': 0}
+[6.868168] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'build'}
+[6.869894] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kush/UR5_Project_New/build/hello_moveit', '--', '-j4', '-l4'], 'cwd': '/home/kush/UR5_Project_New/build/hello_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kush'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kush/UR5_Project_New/install/moveit_ros_planning_interface/lib:/home/kush/UR5_Project_New/install/moveit_ros_move_group/lib:/home/kush/UR5_Project_New/install/moveit_ros_warehouse/lib:/home/kush/UR5_Project_New/install/moveit_kinematics/lib:/home/kush/UR5_Project_New/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kush'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/kush/UR5_Project_New/src'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kush/UR5_Project_New/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kush-Lenovo-Z50-70:@/tmp/.ICE-unix/1916,unix/kush-Lenovo-Z50-70:/tmp/.ICE-unix/1916'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/kush/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-40bd35da67.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/kush'), ('AMENT_PREFIX_PATH', '/home/kush/UR5_Project_New/install/moveit_ros_planning_interface:/home/kush/UR5_Project_New/install/moveit_ros_move_group:/home/kush/UR5_Project_New/install/moveit_ros_warehouse:/home/kush/UR5_Project_New/install/moveit_kinematics:/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'XFCE'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '7'), ('PWD', '/home/kush/UR5_Project_New/build/hello_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kush/UR5_Project_New/install/moveit_ros_planning_interface:/home/kush/UR5_Project_New/install/moveit_ros_move_group:/home/kush/UR5_Project_New/install/moveit_ros_warehouse:/home/kush/UR5_Project_New/install/moveit_kinematics:/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble')]), 'shell': False}
+[6.918436] (-) TimerEvent: {}
+[6.949298] (hello_moveit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o\x1b[0m\n'}
+[7.018547] (-) TimerEvent: {}
+[7.118966] (-) TimerEvent: {}
+[7.219395] (-) TimerEvent: {}
+[7.319763] (-) TimerEvent: {}
+[7.420168] (-) TimerEvent: {}
+[7.520569] (-) TimerEvent: {}
+[7.620990] (-) TimerEvent: {}
+[7.721358] (-) TimerEvent: {}
+[7.821767] (-) TimerEvent: {}
+[7.922170] (-) TimerEvent: {}
+[8.022563] (-) TimerEvent: {}
+[8.122977] (-) TimerEvent: {}
+[8.223357] (-) TimerEvent: {}
+[8.323731] (-) TimerEvent: {}
+[8.424108] (-) TimerEvent: {}
+[8.524486] (-) TimerEvent: {}
+[8.624863] (-) TimerEvent: {}
+[8.725242] (-) TimerEvent: {}
+[8.825659] (-) TimerEvent: {}
+[8.926101] (-) TimerEvent: {}
+[9.026562] (-) TimerEvent: {}
+[9.126963] (-) TimerEvent: {}
+[9.227339] (-) TimerEvent: {}
+[9.327691] (-) TimerEvent: {}
+[9.428033] (-) TimerEvent: {}
+[9.528384] (-) TimerEvent: {}
+[9.628733] (-) TimerEvent: {}
+[9.729112] (-) TimerEvent: {}
+[9.829497] (-) TimerEvent: {}
+[9.929883] (-) TimerEvent: {}
+[10.030225] (-) TimerEvent: {}
+[10.130572] (-) TimerEvent: {}
+[10.230924] (-) TimerEvent: {}
+[10.331280] (-) TimerEvent: {}
+[10.431627] (-) TimerEvent: {}
+[10.531980] (-) TimerEvent: {}
+[10.632327] (-) TimerEvent: {}
+[10.732681] (-) TimerEvent: {}
+[10.833029] (-) TimerEvent: {}
+[10.933451] (-) TimerEvent: {}
+[11.033800] (-) TimerEvent: {}
+[11.134160] (-) TimerEvent: {}
+[11.234548] (-) TimerEvent: {}
+[11.334929] (-) TimerEvent: {}
+[11.435432] (-) TimerEvent: {}
+[11.535826] (-) TimerEvent: {}
+[11.636227] (-) TimerEvent: {}
+[11.736612] (-) TimerEvent: {}
+[11.836991] (-) TimerEvent: {}
+[11.937339] (-) TimerEvent: {}
+[12.037685] (-) TimerEvent: {}
+[12.138022] (-) TimerEvent: {}
+[12.238339] (-) TimerEvent: {}
+[12.338675] (-) TimerEvent: {}
+[12.439022] (-) TimerEvent: {}
+[12.539376] (-) TimerEvent: {}
+[12.639753] (-) TimerEvent: {}
+[12.740109] (-) TimerEvent: {}
+[12.840454] (-) TimerEvent: {}
+[12.940868] (-) TimerEvent: {}
+[13.041215] (-) TimerEvent: {}
+[13.141562] (-) TimerEvent: {}
+[13.241931] (-) TimerEvent: {}
+[13.342322] (-) TimerEvent: {}
+[13.442696] (-) TimerEvent: {}
+[13.543176] (-) TimerEvent: {}
+[13.643567] (-) TimerEvent: {}
+[13.743949] (-) TimerEvent: {}
+[13.844296] (-) TimerEvent: {}
+[13.944647] (-) TimerEvent: {}
+[14.044999] (-) TimerEvent: {}
+[14.145405] (-) TimerEvent: {}
+[14.245808] (-) TimerEvent: {}
+[14.346251] (-) TimerEvent: {}
+[14.446631] (-) TimerEvent: {}
+[14.547003] (-) TimerEvent: {}
+[14.647377] (-) TimerEvent: {}
+[14.747759] (-) TimerEvent: {}
+[14.848141] (-) TimerEvent: {}
+[14.948516] (-) TimerEvent: {}
+[15.048895] (-) TimerEvent: {}
+[15.149256] (-) TimerEvent: {}
+[15.249640] (-) TimerEvent: {}
+[15.350014] (-) TimerEvent: {}
+[15.450388] (-) TimerEvent: {}
+[15.550772] (-) TimerEvent: {}
+[15.651167] (-) TimerEvent: {}
+[15.751595] (-) TimerEvent: {}
+[15.851987] (-) TimerEvent: {}
+[15.952370] (-) TimerEvent: {}
+[16.052761] (-) TimerEvent: {}
+[16.153136] (-) TimerEvent: {}
+[16.253524] (-) TimerEvent: {}
+[16.353996] (-) TimerEvent: {}
+[16.454367] (-) TimerEvent: {}
+[16.554694] (-) TimerEvent: {}
+[16.655023] (-) TimerEvent: {}
+[16.755352] (-) TimerEvent: {}
+[16.855689] (-) TimerEvent: {}
+[16.956052] (-) TimerEvent: {}
+[17.056419] (-) TimerEvent: {}
+[17.156767] (-) TimerEvent: {}
+[17.257108] (-) TimerEvent: {}
+[17.357414] (-) TimerEvent: {}
+[17.457766] (-) TimerEvent: {}
+[17.558174] (-) TimerEvent: {}
+[17.658508] (-) TimerEvent: {}
+[17.758894] (-) TimerEvent: {}
+[17.859276] (-) TimerEvent: {}
+[17.959670] (-) TimerEvent: {}
+[18.060055] (-) TimerEvent: {}
+[18.160435] (-) TimerEvent: {}
+[18.260786] (-) TimerEvent: {}
+[18.361126] (-) TimerEvent: {}
+[18.461465] (-) TimerEvent: {}
+[18.561848] (-) TimerEvent: {}
+[18.662253] (-) TimerEvent: {}
+[18.762629] (-) TimerEvent: {}
+[18.863033] (-) TimerEvent: {}
+[18.963400] (-) TimerEvent: {}
+[19.063813] (-) TimerEvent: {}
+[19.164190] (-) TimerEvent: {}
+[19.246516] (hello_moveit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hello_moveit\x1b[0m\n'}
+[19.264315] (-) TimerEvent: {}
+[19.364712] (-) TimerEvent: {}
+[19.465066] (-) TimerEvent: {}
+[19.565429] (-) TimerEvent: {}
+[19.665794] (-) TimerEvent: {}
+[19.766115] (-) TimerEvent: {}
+[19.866448] (-) TimerEvent: {}
+[19.966781] (-) TimerEvent: {}
+[20.067125] (-) TimerEvent: {}
+[20.167475] (-) TimerEvent: {}
+[20.224559] (hello_moveit) StdoutLine: {'line': b'[100%] Built target hello_moveit\n'}
+[20.239362] (hello_moveit) CommandEnded: {'returncode': 0}
+[20.267589] (-) TimerEvent: {}
+[20.269033] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'install'}
+[20.282546] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kush/UR5_Project_New/build/hello_moveit'], 'cwd': '/home/kush/UR5_Project_New/build/hello_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kush'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kush/UR5_Project_New/install/moveit_ros_planning_interface/lib:/home/kush/UR5_Project_New/install/moveit_ros_move_group/lib:/home/kush/UR5_Project_New/install/moveit_ros_warehouse/lib:/home/kush/UR5_Project_New/install/moveit_kinematics/lib:/home/kush/UR5_Project_New/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kush'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/kush/UR5_Project_New/src'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kush/UR5_Project_New/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kush-Lenovo-Z50-70:@/tmp/.ICE-unix/1916,unix/kush-Lenovo-Z50-70:/tmp/.ICE-unix/1916'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/kush/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-40bd35da67.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/kush'), ('AMENT_PREFIX_PATH', '/home/kush/UR5_Project_New/install/moveit_ros_planning_interface:/home/kush/UR5_Project_New/install/moveit_ros_move_group:/home/kush/UR5_Project_New/install/moveit_ros_warehouse:/home/kush/UR5_Project_New/install/moveit_kinematics:/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'XFCE'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '7'), ('PWD', '/home/kush/UR5_Project_New/build/hello_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kush/UR5_Project_New/install/moveit_ros_planning_interface:/home/kush/UR5_Project_New/install/moveit_ros_move_group:/home/kush/UR5_Project_New/install/moveit_ros_warehouse:/home/kush/UR5_Project_New/install/moveit_kinematics:/home/kush/UR5_Project_New/install/moveit_ros_planning:/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble')]), 'shell': False}
+[20.297897] (hello_moveit) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[20.299058] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kush/UR5_Project_New/install/hello_moveit/lib/hello_moveit/hello_moveit\n'}
+[20.306456] (hello_moveit) StdoutLine: {'line': b'-- Set runtime path of "/home/kush/UR5_Project_New/install/hello_moveit/lib/hello_moveit/hello_moveit" to ""\n'}
+[20.306787] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kush/UR5_Project_New/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit\n'}
+[20.307063] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kush/UR5_Project_New/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit\n'}
+[20.307457] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh\n'}
+[20.307754] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv\n'}
+[20.308068] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/environment/path.sh\n'}
+[20.308347] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/environment/path.dsv\n'}
+[20.308697] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/local_setup.bash\n'}
+[20.308973] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/local_setup.sh\n'}
+[20.309226] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/local_setup.zsh\n'}
+[20.309456] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/local_setup.dsv\n'}
+[20.309696] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/package.dsv\n'}
+[20.310444] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kush/UR5_Project_New/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit\n'}
+[20.310762] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake\n'}
+[20.311022] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake\n'}
+[20.311296] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kush/UR5_Project_New/install/hello_moveit/share/hello_moveit/package.xml\n'}
+[20.314454] (hello_moveit) CommandEnded: {'returncode': 0}
+[20.369027] (-) TimerEvent: {}
+[20.385359] (hello_moveit) JobEnded: {'identifier': 'hello_moveit', 'rc': 0}
+[20.386341] (-) EventReactorShutdown: {}

@@ -225,9 +225,9 @@ CMakeFiles/calibration_correction.dir/clean:
 # Target rules for target CMakeFiles/calibration_test.dir
 
 # All Build rule for target.
-CMakeFiles/calibration_test.dir/all: CMakeFiles/calibration.dir/all
 CMakeFiles/calibration_test.dir/all: gmock/CMakeFiles/gmock.dir/all
 CMakeFiles/calibration_test.dir/all: gmock/CMakeFiles/gmock_main.dir/all
+CMakeFiles/calibration_test.dir/all: CMakeFiles/calibration.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calibration_test.dir/build.make CMakeFiles/calibration_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calibration_test.dir/build.make CMakeFiles/calibration_test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kush/UR5_Project_New/build/ur_calibration/CMakeFiles --progress-num=6,7 "Built target calibration_test"

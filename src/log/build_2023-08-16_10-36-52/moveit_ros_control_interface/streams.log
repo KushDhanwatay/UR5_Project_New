@@ -1,0 +1,121 @@
+[0.053s] Invoking command in '/home/kush/UR5_Project_New/src/build/moveit_ros_control_interface': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_simple_controller_manager:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_simple_controller_manager:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/src/install/moveit_simple_controller_manager/lib:/home/kush/UR5_Project_New/src/install/moveit_core/lib:/home/kush/UR5_Project_New/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kush/UR5_Project_New/src/moveit2/moveit_plugins/moveit_ros_control_interface -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/src/install/moveit_ros_control_interface
+[0.364s] -- The C compiler identification is GNU 11.4.0
+[0.703s] -- The CXX compiler identification is GNU 11.4.0
+[0.763s] -- Detecting C compiler ABI info
+[1.040s] -- Detecting C compiler ABI info - done
+[1.067s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.067s] -- Detecting C compile features
+[1.068s] -- Detecting C compile features - done
+[1.078s] -- Detecting CXX compiler ABI info
+[1.469s] -- Detecting CXX compiler ABI info - done
+[1.544s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.544s] -- Detecting CXX compile features
+[1.545s] -- Detecting CXX compile features - done
+[1.567s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.428s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.765s] -- Found rclcpp_action: 16.0.5 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.924s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.951s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.012s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.092s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.190s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.640s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.647s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.901s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.972s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.093s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.123s] -- Looking for pthread.h
+[4.531s] -- Looking for pthread.h - found
+[4.531s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.704s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.708s] -- Found Threads: TRUE  
+[5.347s] -- Found controller_manager_msgs: 2.29.0 (/opt/ros/humble/share/controller_manager_msgs/cmake)
+[5.580s] -- Found moveit_core: 2.5.4 (/home/kush/UR5_Project_New/src/install/moveit_core/share/moveit_core/cmake)
+[5.685s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[5.726s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[5.812s] -- Found rclcpp_lifecycle: 16.0.5 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[5.910s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[6.378s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[7.781s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.782s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[12.579s] -- Found moveit_simple_controller_manager: 2.5.4 (/home/kush/UR5_Project_New/src/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake)
+[12.594s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[14.308s] -- Found moveit_common: 2.5.4 (/home/kush/UR5_Project_New/src/install/moveit_common/share/moveit_common/cmake)
+[14.610s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[14.639s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[14.640s] -- BACKWARD_HAS_UNWIND=1
+[14.640s] -- BACKWARD_HAS_BACKTRACE=0
+[14.640s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[14.640s] -- BACKWARD_HAS_DW=1
+[14.640s] -- BACKWARD_HAS_BFD=0
+[14.642s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[14.643s] [0mmoveit_ros_control_interface: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[14.668s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread 
+[14.807s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.915s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.921s] -- Configured cppcheck include dirs: /home/kush/UR5_Project_New/src/moveit2/moveit_plugins/moveit_ros_control_interface/include
+[14.921s] -- Configured cppcheck exclude dirs and/or files: 
+[14.923s] -- Added test 'lint_cmake' to check CMake code style
+[14.928s] -- Added test 'xmllint' to check XML markup files
+[14.944s] -- Configuring done
+[15.288s] -- Generating done
+[15.308s] -- Build files have been written to: /home/kush/UR5_Project_New/src/build/moveit_ros_control_interface
+[15.357s] Invoked command in '/home/kush/UR5_Project_New/src/build/moveit_ros_control_interface' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_simple_controller_manager:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_simple_controller_manager:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/src/install/moveit_simple_controller_manager/lib:/home/kush/UR5_Project_New/src/install/moveit_core/lib:/home/kush/UR5_Project_New/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kush/UR5_Project_New/src/moveit2/moveit_plugins/moveit_ros_control_interface -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/src/install/moveit_ros_control_interface
+[15.358s] Invoking command in '/home/kush/UR5_Project_New/src/build/moveit_ros_control_interface': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_simple_controller_manager:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_simple_controller_manager:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/src/install/moveit_simple_controller_manager/lib:/home/kush/UR5_Project_New/src/install/moveit_core/lib:/home/kush/UR5_Project_New/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kush/UR5_Project_New/src/build/moveit_ros_control_interface -- -j4 -l4
+[15.519s] [ 12%] [32mBuilding CXX object CMakeFiles/moveit_ros_control_interface_plugin.dir/src/controller_manager_plugin.cpp.o[0m
+[57.043s] [ 25%] [32m[1mLinking CXX shared library libmoveit_ros_control_interface_plugin.so[0m
+[57.934s] [ 25%] Built target moveit_ros_control_interface_plugin
+[57.981s] [ 37%] [32mBuilding CXX object CMakeFiles/moveit_ros_control_interface_empty_plugin.dir/src/empty_controller_plugin.cpp.o[0m
+[67.087s] [ 50%] [32m[1mLinking CXX shared library libmoveit_ros_control_interface_empty_plugin.so[0m
+[67.760s] [ 50%] Built target moveit_ros_control_interface_empty_plugin
+[67.822s] [ 62%] [32mBuilding CXX object CMakeFiles/moveit_ros_control_interface_gripper_plugin.dir/src/gripper_controller_plugin.cpp.o[0m
+[83.796s] [ 75%] [32m[1mLinking CXX shared library libmoveit_ros_control_interface_gripper_plugin.so[0m
+[84.550s] [ 75%] Built target moveit_ros_control_interface_gripper_plugin
+[84.609s] [ 87%] [32mBuilding CXX object CMakeFiles/moveit_ros_control_interface_trajectory_plugin.dir/src/joint_trajectory_controller_plugin.cpp.o[0m
+[102.314s] [100%] [32m[1mLinking CXX shared library libmoveit_ros_control_interface_trajectory_plugin.so[0m
+[103.031s] [100%] Built target moveit_ros_control_interface_trajectory_plugin
+[103.079s] Invoked command in '/home/kush/UR5_Project_New/src/build/moveit_ros_control_interface' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_simple_controller_manager:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_simple_controller_manager:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/src/install/moveit_simple_controller_manager/lib:/home/kush/UR5_Project_New/src/install/moveit_core/lib:/home/kush/UR5_Project_New/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kush/UR5_Project_New/src/build/moveit_ros_control_interface -- -j4 -l4
+[103.173s] Invoking command in '/home/kush/UR5_Project_New/src/build/moveit_ros_control_interface': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_simple_controller_manager:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_simple_controller_manager:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/src/install/moveit_simple_controller_manager/lib:/home/kush/UR5_Project_New/src/install/moveit_core/lib:/home/kush/UR5_Project_New/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kush/UR5_Project_New/src/build/moveit_ros_control_interface
+[103.194s] -- Install configuration: "Release"
+[103.195s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_plugin.so.2.5.4
+[103.207s] -- Set runtime path of "/home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_plugin.so.2.5.4" to ""
+[103.208s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_plugin.so
+[103.209s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_trajectory_plugin.so.2.5.4
+[103.215s] -- Set runtime path of "/home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_trajectory_plugin.so.2.5.4" to ""
+[103.217s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_trajectory_plugin.so
+[103.218s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_gripper_plugin.so.2.5.4
+[103.223s] -- Set runtime path of "/home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_gripper_plugin.so.2.5.4" to ""
+[103.225s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_gripper_plugin.so
+[103.226s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_empty_plugin.so.2.5.4
+[103.230s] -- Set runtime path of "/home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_empty_plugin.so.2.5.4" to ""
+[103.231s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_empty_plugin.so
+[103.233s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/include
+[103.234s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/include/moveit_ros_control_interface
+[103.236s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h
+[103.240s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/moveit_core_plugins.xml
+[103.249s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/moveit_ros_control_interface_plugins.xml
+[103.268s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/library_path.sh
+[103.269s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/library_path.dsv
+[103.270s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/ament_index/resource_index/package_run_dependencies/moveit_ros_control_interface
+[103.271s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/ament_index/resource_index/parent_prefix_path/moveit_ros_control_interface
+[103.272s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/ament_prefix_path.sh
+[103.273s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/ament_prefix_path.dsv
+[103.274s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/path.sh
+[103.274s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/path.dsv
+[103.275s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.bash
+[103.276s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.sh
+[103.277s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.zsh
+[103.278s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.dsv
+[103.278s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/package.dsv
+[103.279s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/ament_index/resource_index/packages/moveit_ros_control_interface
+[103.280s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_ros_control_interface
+[103.281s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/ament_index/resource_index/moveit_ros_control_interface__pluginlib__plugin/moveit_ros_control_interface
+[103.282s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/export_moveit_ros_control_interfaceExport.cmake
+[103.283s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/export_moveit_ros_control_interfaceExport-release.cmake
+[103.284s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/ConfigExtras.cmake
+[103.285s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/ament_cmake_export_targets-extras.cmake
+[103.288s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[103.289s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/moveit_ros_control_interfaceConfig.cmake
+[103.290s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/moveit_ros_control_interfaceConfig-version.cmake
+[103.290s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_control_interface/share/moveit_ros_control_interface/package.xml
+[103.305s] Invoked command in '/home/kush/UR5_Project_New/src/build/moveit_ros_control_interface' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_simple_controller_manager:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_simple_controller_manager:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/src/install/moveit_simple_controller_manager/lib:/home/kush/UR5_Project_New/src/install/moveit_core/lib:/home/kush/UR5_Project_New/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kush/UR5_Project_New/src/build/moveit_ros_control_interface

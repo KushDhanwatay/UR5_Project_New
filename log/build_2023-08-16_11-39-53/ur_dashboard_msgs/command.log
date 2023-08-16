@@ -1,0 +1,6 @@
+Invoking command in '/home/kush/UR5_Project_New/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kush/UR5_Project_New/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/install/ur_dashboard_msgs
+Invoked command in '/home/kush/UR5_Project_New/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kush/UR5_Project_New/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/install/ur_dashboard_msgs
+Invoking command in '/home/kush/UR5_Project_New/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kush/UR5_Project_New/build/ur_dashboard_msgs -- -j4 -l4
+Invoked command in '/home/kush/UR5_Project_New/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kush/UR5_Project_New/build/ur_dashboard_msgs -- -j4 -l4
+Invoking command in '/home/kush/UR5_Project_New/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kush/UR5_Project_New/build/ur_dashboard_msgs
+Invoked command in '/home/kush/UR5_Project_New/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kush/UR5_Project_New/build/ur_dashboard_msgs

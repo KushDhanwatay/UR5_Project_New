@@ -1,0 +1,68 @@
+[0.070s] Invoking command in '/home/kush/UR5_Project_New/src/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake /home/kush/UR5_Project_New/src/moveit_resources/panda_moveit_config -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config
+[0.305s] -- The C compiler identification is GNU 11.4.0
+[0.532s] -- The CXX compiler identification is GNU 11.4.0
+[0.579s] -- Detecting C compiler ABI info
+[1.058s] -- Detecting C compiler ABI info - done
+[1.102s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.103s] -- Detecting C compile features
+[1.104s] -- Detecting C compile features - done
+[1.111s] -- Detecting CXX compiler ABI info
+[1.560s] -- Detecting CXX compiler ABI info - done
+[1.597s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.599s] -- Detecting CXX compile features
+[1.600s] -- Detecting CXX compile features - done
+[1.605s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.232s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.646s] -- Configuring done
+[2.655s] -- Generating done
+[2.658s] -- Build files have been written to: /home/kush/UR5_Project_New/src/build/moveit_resources_panda_moveit_config
+[2.676s] Invoked command in '/home/kush/UR5_Project_New/src/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake /home/kush/UR5_Project_New/src/moveit_resources/panda_moveit_config -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config
+[2.677s] Invoking command in '/home/kush/UR5_Project_New/src/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --build /home/kush/UR5_Project_New/src/build/moveit_resources_panda_moveit_config -- -j4 -l4
+[2.810s] Invoked command in '/home/kush/UR5_Project_New/src/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --build /home/kush/UR5_Project_New/src/build/moveit_resources_panda_moveit_config -- -j4 -l4
+[2.864s] Invoking command in '/home/kush/UR5_Project_New/src/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --install /home/kush/UR5_Project_New/src/build/moveit_resources_panda_moveit_config
+[2.882s] -- Install configuration: ""
+[2.885s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/ament_index/resource_index/package_run_dependencies/moveit_resources_panda_moveit_config
+[2.890s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/ament_index/resource_index/parent_prefix_path/moveit_resources_panda_moveit_config
+[2.891s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/ament_prefix_path.sh
+[2.891s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/ament_prefix_path.dsv
+[2.891s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/path.sh
+[2.892s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/path.dsv
+[2.892s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.bash
+[2.893s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.sh
+[2.893s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.zsh
+[2.894s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.dsv
+[2.894s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.dsv
+[2.894s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/ament_index/resource_index/packages/moveit_resources_panda_moveit_config
+[2.895s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake/moveit_resources_panda_moveit_configConfig.cmake
+[2.895s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake/moveit_resources_panda_moveit_configConfig-version.cmake
+[2.896s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.xml
+[2.896s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch
+[2.896s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/demo.launch.py
+[2.922s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/moveit_empty.rviz
+[2.978s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/moveit.rviz
+[3.013s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/moveit_rviz.launch.py
+[3.027s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config
+[3.028s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/pilz_industrial_motion_planner_planning.yaml
+[3.030s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_arm.srdf.xacro
+[3.033s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/pilz_cartesian_limits.yaml
+[3.035s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/trajopt_planning.yaml
+[3.035s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_arm.xacro
+[3.038s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/lerp_planning.yaml
+[3.038s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/gripper_moveit_controllers.yaml
+[3.039s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/ompl_planning.yaml
+[3.039s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda.ros2_control.xacro
+[3.040s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/ros2_controllers.yaml
+[3.040s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/hand.xacro
+[3.041s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_arm_hand.srdf.xacro
+[3.041s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda.urdf.xacro
+[3.041s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_hand.ros2_control.xacro
+[3.046s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda.srdf
+[3.057s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/chomp_planning.yaml
+[3.076s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/joint_limits.yaml
+[3.096s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/sensors_kinect_pointcloud.yaml
+[3.112s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/initial_positions.yaml
+[3.112s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/sensors_kinect_depthmap.yaml
+[3.113s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/moveit_controllers.yaml
+[3.113s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/kinematics.yaml
+[3.113s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/.setup_assistant
+[3.152s] Invoked command in '/home/kush/UR5_Project_New/src/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --install /home/kush/UR5_Project_New/src/build/moveit_resources_panda_moveit_config

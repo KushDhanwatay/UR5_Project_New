@@ -1,0 +1,6 @@
+Invoking command in '/home/kush/UR5_Project_New/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kush/UR5_Project_New/src/srdfdom -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/install/srdfdom
+Invoked command in '/home/kush/UR5_Project_New/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kush/UR5_Project_New/src/srdfdom -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/install/srdfdom
+Invoking command in '/home/kush/UR5_Project_New/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kush/UR5_Project_New/build/srdfdom -- -j4 -l4
+Invoked command in '/home/kush/UR5_Project_New/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kush/UR5_Project_New/build/srdfdom -- -j4 -l4
+Invoking command in '/home/kush/UR5_Project_New/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kush/UR5_Project_New/build/srdfdom
+Invoked command in '/home/kush/UR5_Project_New/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kush/UR5_Project_New/build/srdfdom

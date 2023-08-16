@@ -1,0 +1,61 @@
+[0.177s] Invoking command in '/home/kush/UR5_Project_New/build/ur_calibration': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_robot_driver:/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_description:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_robot_driver:/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_description:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/ur_robot_driver/lib:/home/kush/UR5_Project_New/install/ur_controllers/lib:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kush/UR5_Project_New/src/Universal_Robots_ROS2_Driver/ur_calibration -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/install/ur_calibration
+[0.276s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.742s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.897s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.916s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.932s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.970s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.075s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.287s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.290s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.714s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.322s] -- Found ur_robot_driver: 2.2.8 (/home/kush/UR5_Project_New/install/ur_robot_driver/share/ur_robot_driver/cmake)
+[6.916s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.919s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[12.578s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[12.580s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[12.585s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[12.587s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[12.874s] -- Configuring done
+[13.694s] -- Generating done
+[13.711s] -- Build files have been written to: /home/kush/UR5_Project_New/build/ur_calibration
+[13.760s] Invoked command in '/home/kush/UR5_Project_New/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_robot_driver:/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_description:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_robot_driver:/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_description:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/ur_robot_driver/lib:/home/kush/UR5_Project_New/install/ur_controllers/lib:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kush/UR5_Project_New/src/Universal_Robots_ROS2_Driver/ur_calibration -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/install/ur_calibration
+[13.762s] Invoking command in '/home/kush/UR5_Project_New/build/ur_calibration': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_robot_driver:/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_description:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_robot_driver:/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_description:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/ur_robot_driver/lib:/home/kush/UR5_Project_New/install/ur_controllers/lib:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kush/UR5_Project_New/build/ur_calibration -- -j4 -l4
+[14.006s] [35m[1mConsolidate compiler generated dependencies of target calibration[0m
+[14.103s] [ 25%] Built target calibration
+[14.199s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[14.285s] [ 41%] Built target gmock_main
+[14.367s] [35m[1mConsolidate compiler generated dependencies of target calibration_correction[0m
+[14.431s] [ 58%] Built target calibration_correction
+[14.476s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[14.564s] [ 83%] Built target gmock
+[14.634s] [35m[1mConsolidate compiler generated dependencies of target calibration_test[0m
+[14.803s] [100%] Built target calibration_test
+[14.861s] Invoked command in '/home/kush/UR5_Project_New/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_robot_driver:/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_description:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_robot_driver:/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_description:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/ur_robot_driver/lib:/home/kush/UR5_Project_New/install/ur_controllers/lib:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kush/UR5_Project_New/build/ur_calibration -- -j4 -l4
+[15.094s] Invoking command in '/home/kush/UR5_Project_New/build/ur_calibration': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_robot_driver:/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_description:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_robot_driver:/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_description:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/ur_robot_driver/lib:/home/kush/UR5_Project_New/install/ur_controllers/lib:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kush/UR5_Project_New/build/ur_calibration
+[15.123s] -- Install configuration: "Release"
+[15.139s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_calibration/lib/ur_calibration/calibration_correction
+[15.147s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_calibration/include
+[15.147s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_calibration/include/ur_calibration
+[15.147s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_calibration/include/ur_calibration/calibration_consumer.hpp
+[15.147s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_calibration/include/ur_calibration/calibration.hpp
+[15.147s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_calibration/share/ur_calibration/launch
+[15.148s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_calibration/share/ur_calibration/launch/calibration_correction.launch.py
+[15.148s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_calibration/share/ament_index/resource_index/package_run_dependencies/ur_calibration
+[15.148s] -- Installing: /home/kush/UR5_Project_New/install/ur_calibration/share/ament_index/resource_index/parent_prefix_path/ur_calibration
+[15.148s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.sh
+[15.148s] -- Installing: /home/kush/UR5_Project_New/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.dsv
+[15.148s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_calibration/share/ur_calibration/environment/path.sh
+[15.148s] -- Installing: /home/kush/UR5_Project_New/install/ur_calibration/share/ur_calibration/environment/path.dsv
+[15.149s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_calibration/share/ur_calibration/local_setup.bash
+[15.149s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_calibration/share/ur_calibration/local_setup.sh
+[15.149s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_calibration/share/ur_calibration/local_setup.zsh
+[15.149s] -- Installing: /home/kush/UR5_Project_New/install/ur_calibration/share/ur_calibration/local_setup.dsv
+[15.149s] -- Installing: /home/kush/UR5_Project_New/install/ur_calibration/share/ur_calibration/package.dsv
+[15.149s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_calibration/share/ament_index/resource_index/packages/ur_calibration
+[15.150s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.150s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.150s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig.cmake
+[15.150s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig-version.cmake
+[15.150s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_calibration/share/ur_calibration/package.xml
+[15.164s] Invoked command in '/home/kush/UR5_Project_New/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_robot_driver:/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_description:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_robot_driver:/home/kush/UR5_Project_New/install/ur_controllers:/home/kush/UR5_Project_New/install/ur_description:/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/ur_robot_driver/lib:/home/kush/UR5_Project_New/install/ur_controllers/lib:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kush/UR5_Project_New/build/ur_calibration

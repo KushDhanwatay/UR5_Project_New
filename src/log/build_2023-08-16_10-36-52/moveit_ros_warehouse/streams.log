@@ -1,0 +1,150 @@
+[0.049s] Invoking command in '/home/kush/UR5_Project_New/src/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_ros_planning:/home/kush/UR5_Project_New/src/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_ros_planning:/home/kush/UR5_Project_New/src/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/src/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/src/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/src/install/moveit_core/lib:/home/kush/UR5_Project_New/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kush/UR5_Project_New/src/moveit2/moveit_ros/warehouse -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/src/install/moveit_ros_warehouse
+[0.321s] -- The C compiler identification is GNU 11.4.0
+[0.622s] -- The CXX compiler identification is GNU 11.4.0
+[0.654s] -- Detecting C compiler ABI info
+[0.897s] -- Detecting C compiler ABI info - done
+[0.928s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.928s] -- Detecting C compile features
+[0.929s] -- Detecting C compile features - done
+[0.938s] -- Detecting CXX compiler ABI info
+[1.543s] -- Detecting CXX compiler ABI info - done
+[1.576s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.577s] -- Detecting CXX compile features
+[1.578s] -- Detecting CXX compile features - done
+[1.581s] -- Found moveit_common: 2.5.4 (/home/kush/UR5_Project_New/src/install/moveit_common/share/moveit_common/cmake)
+[1.597s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.375s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.030s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[3.056s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[3.069s] -- BACKWARD_HAS_UNWIND=1
+[3.069s] -- BACKWARD_HAS_BACKTRACE=0
+[3.070s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[3.070s] -- BACKWARD_HAS_DW=1
+[3.070s] -- BACKWARD_HAS_BFD=0
+[3.071s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[3.072s] [0mmoveit_ros_warehouse: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[3.080s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[3.257s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.281s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.330s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.394s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.478s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.032s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.052s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.627s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.718s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.895s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.940s] -- Looking for pthread.h
+[5.360s] -- Looking for pthread.h - found
+[5.361s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.885s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.887s] -- Found Threads: TRUE  
+[6.522s] -- Found moveit_core: 2.5.4 (/home/kush/UR5_Project_New/src/install/moveit_core/share/moveit_core/cmake)
+[6.620s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[6.667s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[6.818s] -- Found rclcpp_lifecycle: 16.0.5 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[6.996s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[7.622s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[8.696s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.697s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[13.622s] -- Found warehouse_ros: 2.0.4 (/opt/ros/humble/share/warehouse_ros/cmake)
+[13.866s] -- Found moveit_ros_planning: 2.5.4 (/home/kush/UR5_Project_New/src/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[13.885s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[15.980s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[15.996s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[16.505s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[16.505s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[17.070s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[17.071s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[17.600s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[17.816s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[17.859s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[17.862s] -- Configured cppcheck include dirs: /home/kush/UR5_Project_New/src/moveit2/moveit_ros/warehouse/include
+[17.862s] -- Configured cppcheck exclude dirs and/or files: 
+[17.864s] -- Added test 'lint_cmake' to check CMake code style
+[17.866s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[17.868s] -- Added test 'xmllint' to check XML markup files
+[17.873s] -- Configuring done
+[18.372s] -- Generating done
+[18.388s] -- Build files have been written to: /home/kush/UR5_Project_New/src/build/moveit_ros_warehouse
+[18.487s] Invoked command in '/home/kush/UR5_Project_New/src/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_ros_planning:/home/kush/UR5_Project_New/src/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_ros_planning:/home/kush/UR5_Project_New/src/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/src/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/src/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/src/install/moveit_core/lib:/home/kush/UR5_Project_New/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kush/UR5_Project_New/src/moveit2/moveit_ros/warehouse -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/src/install/moveit_ros_warehouse
+[18.488s] Invoking command in '/home/kush/UR5_Project_New/src/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_ros_planning:/home/kush/UR5_Project_New/src/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_ros_planning:/home/kush/UR5_Project_New/src/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/src/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/src/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/src/install/moveit_core/lib:/home/kush/UR5_Project_New/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kush/UR5_Project_New/src/build/moveit_ros_warehouse -- -j4 -l4
+[18.877s] [  5%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/moveit_message_storage.cpp.o[0m
+[45.377s] [ 10%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/constraints_storage.cpp.o[0m
+[63.837s] [ 15%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/trajectory_constraints_storage.cpp.o[0m
+[83.694s] [ 20%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/state_storage.cpp.o[0m
+[103.638s] [ 25%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/warehouse_connector.cpp.o[0m
+[106.506s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/planning_scene_world_storage.cpp.o[0m
+[124.289s] [ 35%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/planning_scene_storage.cpp.o[0m
+[161.347s] [ 40%] [32m[1mLinking CXX shared library libmoveit_warehouse.so[0m
+[163.501s] [ 40%] Built target moveit_warehouse
+[163.653s] [ 45%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_broadcast.dir/src/broadcast.cpp.o[0m
+[206.770s] [ 50%] [32m[1mLinking CXX executable moveit_warehouse_broadcast[0m
+[207.977s] [ 50%] Built target moveit_warehouse_broadcast
+[208.097s] [ 55%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_save_as_text.dir/src/save_as_text.cpp.o[0m
+[253.394s] [ 60%] [32m[1mLinking CXX executable moveit_warehouse_save_as_text[0m
+[254.794s] [ 60%] Built target moveit_warehouse_save_as_text
+[254.958s] [ 65%] [32mBuilding CXX object CMakeFiles/moveit_init_demo_warehouse.dir/src/initialize_demo_db.cpp.o[0m
+[295.756s] [ 70%] [32m[1mLinking CXX executable moveit_init_demo_warehouse[0m
+[297.361s] [ 70%] Built target moveit_init_demo_warehouse
+[297.496s] [ 75%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_services.dir/src/warehouse_services.cpp.o[0m
+[329.795s] [ 80%] [32m[1mLinking CXX executable moveit_warehouse_services[0m
+[331.076s] [ 80%] Built target moveit_warehouse_services
+[331.230s] [ 85%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_import_from_text.dir/src/import_from_text.cpp.o[0m
+[377.245s] [ 90%] [32m[1mLinking CXX executable moveit_warehouse_import_from_text[0m
+[378.877s] [ 90%] Built target moveit_warehouse_import_from_text
+[379.009s] [ 95%] [32mBuilding CXX object CMakeFiles/moveit_save_to_warehouse.dir/src/save_to_warehouse.cpp.o[0m
+[464.650s] [100%] [32m[1mLinking CXX executable moveit_save_to_warehouse[0m
+[466.724s] [100%] Built target moveit_save_to_warehouse
+[466.822s] Invoked command in '/home/kush/UR5_Project_New/src/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_ros_planning:/home/kush/UR5_Project_New/src/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_ros_planning:/home/kush/UR5_Project_New/src/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/src/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/src/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/src/install/moveit_core/lib:/home/kush/UR5_Project_New/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kush/UR5_Project_New/src/build/moveit_ros_warehouse -- -j4 -l4
+[467.524s] Invoking command in '/home/kush/UR5_Project_New/src/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_ros_planning:/home/kush/UR5_Project_New/src/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_ros_planning:/home/kush/UR5_Project_New/src/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/src/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/src/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/src/install/moveit_core/lib:/home/kush/UR5_Project_New/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kush/UR5_Project_New/src/build/moveit_ros_warehouse
+[467.557s] -- Install configuration: "Release"
+[467.561s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse
+[467.596s] -- Set runtime path of "/home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse" to ""
+[467.597s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast
+[467.628s] -- Set runtime path of "/home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast" to ""
+[467.629s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text
+[467.642s] -- Set runtime path of "/home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text" to ""
+[467.642s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text
+[467.654s] -- Set runtime path of "/home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text" to ""
+[467.654s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse
+[467.659s] -- Set runtime path of "/home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse" to ""
+[467.659s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services
+[467.682s] -- Set runtime path of "/home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services" to ""
+[467.683s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/include
+[467.684s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/include/moveit
+[467.685s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/include/moveit/warehouse
+[467.686s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_world_storage.h
+[467.687s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/include/moveit/warehouse/constraints_storage.h
+[467.687s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_storage.h
+[467.691s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/include/moveit/warehouse/trajectory_constraints_storage.h
+[467.691s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/include/moveit/warehouse/state_storage.h
+[467.692s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/include/moveit/warehouse/moveit_message_storage.h
+[467.692s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/include/moveit/warehouse/warehouse_connector.h
+[467.693s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/include/moveit_warehouse_export.h
+[467.694s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.4
+[467.719s] -- Set runtime path of "/home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.4" to ""
+[467.719s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so
+[467.720s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.sh
+[467.720s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.dsv
+[467.733s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/ament_index/resource_index/package_run_dependencies/moveit_ros_warehouse
+[467.781s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/ament_index/resource_index/parent_prefix_path/moveit_ros_warehouse
+[467.781s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.sh
+[467.782s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.dsv
+[467.782s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.sh
+[467.782s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.dsv
+[467.783s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.bash
+[467.783s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.sh
+[467.783s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.zsh
+[467.784s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.dsv
+[467.785s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.dsv
+[467.785s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/ament_index/resource_index/packages/moveit_ros_warehouse
+[467.786s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport.cmake
+[467.786s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport-release.cmake
+[467.786s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake
+[467.787s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_targets-extras.cmake
+[467.787s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_dependencies-extras.cmake
+[467.788s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake
+[467.788s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig-version.cmake
+[467.788s] -- Installing: /home/kush/UR5_Project_New/src/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.xml
+[467.806s] Invoked command in '/home/kush/UR5_Project_New/src/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_ros_planning:/home/kush/UR5_Project_New/src/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/src/install/moveit_ros_planning:/home/kush/UR5_Project_New/src/install/moveit_ros_occupancy_map_monitor:/home/kush/UR5_Project_New/src/install/moveit_core:/home/kush/UR5_Project_New/src/install/srdfdom:/home/kush/UR5_Project_New/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/src/install/moveit_ros_planning/lib:/home/kush/UR5_Project_New/src/install/moveit_ros_occupancy_map_monitor/lib:/home/kush/UR5_Project_New/src/install/moveit_core/lib:/home/kush/UR5_Project_New/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kush/UR5_Project_New/src/build/moveit_ros_warehouse

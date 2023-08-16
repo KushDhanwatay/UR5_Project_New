@@ -1,0 +1,83 @@
+[0.225s] Invoking command in '/home/kush/UR5_Project_New/build/moveit_ros_occupancy_map_monitor': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kush/UR5_Project_New/src/moveit2/moveit_ros/occupancy_map_monitor -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor
+[0.360s] -- Found moveit_common: 2.5.4 (/home/kush/UR5_Project_New/install/moveit_common/share/moveit_common/cmake)
+[0.361s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.433s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.434s] -- BACKWARD_HAS_UNWIND=1
+[1.434s] -- BACKWARD_HAS_BACKTRACE=0
+[1.434s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.434s] -- BACKWARD_HAS_DW=1
+[1.434s] -- BACKWARD_HAS_BFD=0
+[1.436s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.439s] -- Found moveit_core: 2.5.4 (/home/kush/UR5_Project_New/install/moveit_core/share/moveit_core/cmake)
+[1.474s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.494s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.558s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.564s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.581s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.613s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.659s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.765s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.767s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.222s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.935s] -- Found rclcpp_lifecycle: 16.0.5 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.088s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[3.428s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.993s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.908s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.920s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[8.926s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[8.927s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.962s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.962s] -- Configured cppcheck include dirs: /home/kush/UR5_Project_New/src/moveit2/moveit_ros/occupancy_map_monitor/include
+[8.962s] -- Configured cppcheck exclude dirs and/or files: 
+[8.962s] -- Added test 'lint_cmake' to check CMake code style
+[8.963s] -- Added test 'xmllint' to check XML markup files
+[8.974s] -- Configuring done
+[9.278s] -- Generating done
+[9.295s] -- Build files have been written to: /home/kush/UR5_Project_New/build/moveit_ros_occupancy_map_monitor
+[9.371s] Invoked command in '/home/kush/UR5_Project_New/build/moveit_ros_occupancy_map_monitor' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kush/UR5_Project_New/src/moveit2/moveit_ros/occupancy_map_monitor -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor
+[9.372s] Invoking command in '/home/kush/UR5_Project_New/build/moveit_ros_occupancy_map_monitor': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kush/UR5_Project_New/build/moveit_ros_occupancy_map_monitor -- -j4 -l4
+[9.586s] [35m[1mConsolidate compiler generated dependencies of target moveit_ros_occupancy_map_monitor[0m
+[9.835s] [ 30%] Built target moveit_ros_occupancy_map_monitor
+[9.886s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[9.936s] [ 53%] Built target gmock
+[9.993s] [35m[1mConsolidate compiler generated dependencies of target moveit_ros_occupancy_map_server[0m
+[10.118s] [ 69%] Built target moveit_ros_occupancy_map_server
+[10.183s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[10.224s] [ 84%] Built target gmock_main
+[10.373s] [35m[1mConsolidate compiler generated dependencies of target occupancy_map_monitor_tests[0m
+[10.512s] [100%] Built target occupancy_map_monitor_tests
+[10.599s] Invoked command in '/home/kush/UR5_Project_New/build/moveit_ros_occupancy_map_monitor' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kush/UR5_Project_New/build/moveit_ros_occupancy_map_monitor -- -j4 -l4
+[10.836s] Invoking command in '/home/kush/UR5_Project_New/build/moveit_ros_occupancy_map_monitor': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kush/UR5_Project_New/build/moveit_ros_occupancy_map_monitor
+[10.850s] -- Install configuration: "Release"
+[10.916s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/lib/libmoveit_ros_occupancy_map_monitor.so.2.5.4
+[10.919s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/lib/libmoveit_ros_occupancy_map_monitor.so
+[10.955s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/lib/moveit_ros_occupancy_map_monitor/moveit_ros_occupancy_map_server
+[10.959s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/include
+[10.960s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/include/moveit
+[10.961s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor
+[10.961s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_updater.h
+[10.961s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_monitor.h
+[10.961s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_monitor_middleware_handle.hpp
+[10.961s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/library_path.sh
+[10.961s] -- Installing: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/library_path.dsv
+[10.962s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/ament_index/resource_index/package_run_dependencies/moveit_ros_occupancy_map_monitor
+[10.962s] -- Installing: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/ament_index/resource_index/parent_prefix_path/moveit_ros_occupancy_map_monitor
+[10.962s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/ament_prefix_path.sh
+[10.962s] -- Installing: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/ament_prefix_path.dsv
+[10.962s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/path.sh
+[10.962s] -- Installing: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/path.dsv
+[10.963s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.bash
+[10.963s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.sh
+[10.963s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.zsh
+[10.964s] -- Installing: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.dsv
+[10.964s] -- Installing: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/package.dsv
+[10.965s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/ament_index/resource_index/packages/moveit_ros_occupancy_map_monitor
+[10.972s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/export_moveit_ros_occupancy_map_monitorExport.cmake
+[10.972s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/export_moveit_ros_occupancy_map_monitorExport-release.cmake
+[10.972s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/ament_cmake_export_targets-extras.cmake
+[10.973s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.973s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/moveit_ros_occupancy_map_monitorConfig.cmake
+[10.973s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/moveit_ros_occupancy_map_monitorConfig-version.cmake
+[10.973s] -- Up-to-date: /home/kush/UR5_Project_New/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/package.xml
+[11.050s] Invoked command in '/home/kush/UR5_Project_New/build/moveit_ros_occupancy_map_monitor' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/moveit_core:/home/kush/UR5_Project_New/install/srdfdom:/home/kush/UR5_Project_New/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/moveit_core/lib:/home/kush/UR5_Project_New/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/kush/UR5_Project_New/install/moveit_core/bin:${PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kush/UR5_Project_New/build/moveit_ros_occupancy_map_monitor

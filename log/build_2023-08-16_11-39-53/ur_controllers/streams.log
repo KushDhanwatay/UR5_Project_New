@@ -1,0 +1,66 @@
+[0.162s] Invoking command in '/home/kush/UR5_Project_New/build/ur_controllers': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kush/UR5_Project_New/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/install/ur_controllers
+[0.322s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.700s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.787s] -- Found controller_interface: 2.29.0 (/opt/ros/humble/share/controller_interface/cmake)
+[1.008s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.012s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.021s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.040s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.085s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.210s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.214s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.484s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.424s] -- Found joint_trajectory_controller: 2.23.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[5.092s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[5.901s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[6.194s] -- Found ur_dashboard_msgs: 2.2.8 (/home/kush/UR5_Project_New/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[6.668s] -- Found ur_msgs: 2.0.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[7.728s] -- Configuring done
+[14.274s] -- Generating done
+[14.309s] -- Build files have been written to: /home/kush/UR5_Project_New/build/ur_controllers
+[14.327s] Invoked command in '/home/kush/UR5_Project_New/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kush/UR5_Project_New/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/kush/UR5_Project_New/install/ur_controllers
+[14.329s] Invoking command in '/home/kush/UR5_Project_New/build/ur_controllers': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kush/UR5_Project_New/build/ur_controllers -- -j4 -l4
+[14.441s] [ 14%] Built target gpio_controller_parameters
+[14.497s] [ 28%] Built target scaled_joint_trajectory_controller_parameters
+[14.534s] [ 42%] Built target speed_scaling_state_broadcaster_parameters
+[14.742s] [35m[1mConsolidate compiler generated dependencies of target ur_controllers[0m
+[16.226s] [100%] Built target ur_controllers
+[16.241s] Invoked command in '/home/kush/UR5_Project_New/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kush/UR5_Project_New/build/ur_controllers -- -j4 -l4
+[16.289s] Invoking command in '/home/kush/UR5_Project_New/build/ur_controllers': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kush/UR5_Project_New/build/ur_controllers
+[16.300s] -- Install configuration: "Release"
+[16.300s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/include/gpio_controller_parameters
+[16.300s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/include/gpio_controller_parameters/gpio_controller_parameters.hpp
+[16.300s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/include/speed_scaling_state_broadcaster_parameters
+[16.300s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/include/speed_scaling_state_broadcaster_parameters/speed_scaling_state_broadcaster_parameters.hpp
+[16.300s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/include/scaled_joint_trajectory_controller_parameters
+[16.301s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/include/scaled_joint_trajectory_controller_parameters/scaled_joint_trajectory_controller_parameters.hpp
+[16.301s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[16.850s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/lib/libur_controllers.so
+[16.851s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/include
+[16.851s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/include/ur_controllers
+[16.852s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[16.852s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[16.853s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[16.853s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[16.854s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[16.854s] -- Installing: /home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[16.854s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[16.855s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[16.856s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[16.856s] -- Installing: /home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[16.856s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/environment/path.sh
+[16.857s] -- Installing: /home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[16.857s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/local_setup.bash
+[16.858s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/local_setup.sh
+[16.858s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[16.858s] -- Installing: /home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[16.858s] -- Installing: /home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/package.dsv
+[16.858s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[16.858s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[16.859s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.859s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.859s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[16.859s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[16.859s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[16.859s] -- Up-to-date: /home/kush/UR5_Project_New/install/ur_controllers/share/ur_controllers/package.xml
+[16.875s] Invoked command in '/home/kush/UR5_Project_New/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kush/UR5_Project_New/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kush/UR5_Project_New/build/ur_controllers
